@@ -3,7 +3,7 @@ LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafh
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 5
+Sheet 6 6
 Title ""
 Date "27 aug 2010"
 Rev ""
