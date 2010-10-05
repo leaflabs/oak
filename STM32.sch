@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
+LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
