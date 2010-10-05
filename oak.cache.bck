@@ -1,0 +1,74 @@
+EESchema-DOCLIB  Version 2.0  5/10/2010-15:58:55
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_16
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_32
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CONN_3X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_4X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_6
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_7X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP OSC
+D Oscillator
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP XC3S250E
+D spartan 2
+K FPGA
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+#End Doc Library
