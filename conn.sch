@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -28,22 +28,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 1850 7750 1850
 Wire Wire Line
-	3850 4200 3850 4100
-Wire Wire Line
-	3850 3400 3750 3400
-Wire Wire Line
-	3850 4100 3750 4100
-Wire Wire Line
-	3750 3200 3850 3200
-Wire Wire Line
-	3750 3300 3850 3300
-Wire Wire Line
-	3750 3000 3850 3000
-Wire Wire Line
-	3750 2900 3850 2900
-Wire Wire Line
-	3750 3100 3850 3100
-Wire Wire Line
 	8000 3450 8100 3450
 Connection ~ 6600 3450
 Wire Wire Line
@@ -53,52 +37,6 @@ Wire Wire Line
 	6600 6650 6600 6450
 Wire Wire Line
 	6600 6450 6700 6450
-Wire Wire Line
-	3850 3900 3750 3900
-Wire Wire Line
-	3850 3700 3750 3700
-Wire Wire Line
-	3850 3800 3750 3800
-Wire Wire Line
-	3850 3500 3750 3500
-Wire Wire Line
-	3750 2700 3850 2700
-Wire Wire Line
-	2850 4100 2950 4100
-Wire Wire Line
-	2850 3900 2950 3900
-Wire Wire Line
-	2850 3700 2950 3700
-Wire Wire Line
-	2850 3500 2950 3500
-Wire Wire Line
-	2850 3300 2950 3300
-Wire Wire Line
-	2850 3100 2950 3100
-Wire Wire Line
-	2850 2900 2950 2900
-Wire Wire Line
-	2850 2700 2950 2700
-Wire Wire Line
-	2850 2600 2950 2600
-Wire Wire Line
-	2850 2800 2950 2800
-Wire Wire Line
-	2850 3000 2950 3000
-Wire Wire Line
-	2850 3200 2950 3200
-Wire Wire Line
-	2850 3400 2950 3400
-Wire Wire Line
-	2850 3600 2950 3600
-Wire Wire Line
-	2850 3800 2950 3800
-Wire Wire Line
-	2850 4000 2950 4000
-Wire Wire Line
-	3750 2600 3850 2600
-Wire Wire Line
-	3750 2800 3850 2800
 Wire Wire Line
 	3850 6200 3750 6200
 Wire Wire Line
@@ -264,12 +202,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 4250 6700 4250
 Wire Wire Line
-	3750 3600 3850 3600
-Wire Wire Line
-	3750 4000 4650 4000
-Wire Wire Line
-	4650 4000 4650 3900
-Wire Wire Line
 	7750 1550 7850 1550
 Wire Wire Line
 	7750 1650 7850 1650
@@ -338,26 +270,6 @@ F 1 "SD" H 7300 2350 60  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
-U 1 1 4BAE7142
-P 3850 4200
-F 0 "#PWR04" H 3850 4200 30  0001 C C
-F 1 "GND" H 3850 4130 30  0001 C C
-	1    3850 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR05
-U 1 1 4BAE7131
-P 4650 3900
-F 0 "#PWR05" H 4650 4000 30  0001 C C
-F 1 "VCC" H 4650 4000 30  0000 C C
-	1    4650 3900
-	1    0    0    -1  
-$EndComp
-Text GLabel 3850 3400 2    60   BiDi
-FSMC_NE2
-$Comp
 L CONN_16 P7
 U 1 1 4BAE3E1B
 P 3400 5550
@@ -365,25 +277,6 @@ F 0 "P7" H 3400 6400 60  0000 C C
 F 1 "CONN_16" V 3400 5550 60  0000 C C
 	1    3400 5550
 	-1   0    0    -1  
-$EndComp
-Text GLabel 3850 3200 2    60   Input
-FSMC_A22
-Text GLabel 3850 3300 2    60   Input
-FSMC_A23
-Text GLabel 3850 3000 2    60   Input
-FSMC_A20
-Text GLabel 3850 2900 2    60   Input
-FSMC_A19
-Text GLabel 3850 3100 2    60   Input
-FSMC_A21
-$Comp
-L CONN_16X2 P6
-U 1 1 4BAE3BF5
-P 3350 3350
-F 0 "P6" H 3350 4200 60  0000 C C
-F 1 "CONN_16X2" V 3350 3350 50  0000 C C
-	1    3350 3350
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_32 P9
@@ -457,54 +350,6 @@ F 1 "GND" H 6600 3280 30  0001 C C
 	1    6600 3350
 	1    0    0    1   
 $EndComp
-Text GLabel 3850 3500 2    60   BiDi
-FSMC_NE3
-Text GLabel 3850 3900 2    60   BiDi
-FSMC_NBL0
-Text GLabel 3850 3800 2    60   BiDi
-FSMC_NBL1
-Text GLabel 3850 3600 2    60   BiDi
-FSMC_NWE
-Text GLabel 3850 3700 2    60   BiDi
-FSMC_NOE
-Text GLabel 3850 2700 2    60   Input
-FSMC_A17
-Text GLabel 3850 2600 2    60   Input
-FSMC_A16
-Text GLabel 2850 4100 0    60   Input
-FSMC_A15
-Text GLabel 2850 4000 0    60   Input
-FSMC_A14
-Text GLabel 2850 3900 0    60   Input
-FSMC_A13
-Text GLabel 2850 3800 0    60   Input
-FSMC_A12
-Text GLabel 2850 3700 0    60   Input
-FSMC_A11
-Text GLabel 2850 3600 0    60   Input
-FSMC_A10
-Text GLabel 2850 3500 0    60   Input
-FSMC_A9
-Text GLabel 2850 3400 0    60   Input
-FSMC_A8
-Text GLabel 2850 3300 0    60   Input
-FSMC_A7
-Text GLabel 3850 2800 2    60   Input
-FSMC_A18
-Text GLabel 2850 3200 0    60   Input
-FSMC_A6
-Text GLabel 2850 3100 0    60   Input
-FSMC_A5
-Text GLabel 2850 3000 0    60   Input
-FSMC_A4
-Text GLabel 2850 2900 0    60   Input
-FSMC_A3
-Text GLabel 2850 2800 0    60   Input
-FSMC_A2
-Text GLabel 2850 2700 0    60   Input
-FSMC_A1
-Text GLabel 2850 2600 0    60   Input
-FSMC_A0
 Text GLabel 3850 4800 2    60   BiDi
 FSMC_D0
 Text GLabel 3850 4900 2    60   BiDi

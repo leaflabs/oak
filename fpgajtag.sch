@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -13,8 +13,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3550 5150 0    60   BiDi
-FPGA_TDO
+$Comp
+L GND #PWR?
+U 1 1 4CBC6E6D
+P 6550 3800
+F 0 "#PWR?" H 6550 3800 30  0001 C C
+F 1 "GND" H 6550 3730 30  0001 C C
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3700 6550 3800
+Wire Wire Line
+	6150 3800 6150 3700
+Wire Wire Line
+	6250 3300 6150 3300
+Wire Wire Line
+	6350 1900 6350 2100
+Wire Wire Line
+	6550 2100 6550 2000
+Wire Wire Line
+	6550 2000 6150 2000
+Wire Wire Line
+	6150 2000 6150 2100
+Connection ~ 6350 2900
+Wire Wire Line
+	6350 2900 6350 2600
 Wire Wire Line
 	3550 5150 3650 5150
 Connection ~ 3650 4850
@@ -165,6 +189,97 @@ Wire Wire Line
 	4700 4550 4600 4550
 Wire Wire Line
 	4600 4750 4700 4750
+Connection ~ 6550 2700
+Connection ~ 6150 3200
+Wire Wire Line
+	5950 2700 6650 2700
+Wire Wire Line
+	5950 2900 6650 2900
+Wire Wire Line
+	6650 3200 5950 3200
+Wire Wire Line
+	5950 3100 6650 3100
+Connection ~ 6350 2000
+Wire Wire Line
+	6150 3300 6150 2600
+Wire Wire Line
+	6150 3700 6250 3700
+Wire Wire Line
+	6550 3300 6550 2600
+$Comp
+L LED D?
+U 1 1 4CBC6E45
+P 6550 3500
+F 0 "D?" H 6550 3600 50  0000 C C
+F 1 "DONE" H 6550 3400 50  0000 C C
+	1    6550 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4CBC6DBD
+P 6150 3800
+F 0 "#PWR?" H 6150 3800 30  0001 C C
+F 1 "GND" H 6150 3730 30  0001 C C
+	1    6150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BUT BUT?
+U 1 1 4CBC6D88
+P 6150 3500
+F 0 "BUT?" H 6150 3750 60  0000 C C
+F 1 "BUT" H 6150 3750 60  0001 C C
+	1    6150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4CBC6D1C
+P 6350 1900
+F 0 "#PWR?" H 6350 2000 30  0001 C C
+F 1 "VCC" H 6350 2000 30  0000 C C
+	1    6350 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 3100 0    60   BiDi
+DIN
+NoConn ~ 6650 3000
+$Comp
+L R R?
+U 1 1 4CBC65F3
+P 6150 2350
+F 0 "R?" V 6230 2350 50  0000 C C
+F 1 "4.7k" V 6150 2350 50  0000 C C
+	1    6150 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 3200 0    60   BiDi
+PROG
+Text GLabel 5950 2700 0    60   BiDi
+DONE
+$Comp
+L R R?
+U 1 1 4CBC6565
+P 6550 2350
+F 0 "R?" V 6630 2350 50  0000 C C
+F 1 "4.7k" V 6550 2350 50  0000 C C
+	1    6550 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 2900 0    60   BiDi
+INIT
+$Comp
+L R R?
+U 1 1 4CBC5FBD
+P 6350 2350
+F 0 "R?" V 6430 2350 50  0000 C C
+F 1 "4.7k" V 6350 2350 50  0000 C C
+	1    6350 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3550 5150 0    60   BiDi
+FPGA_TDO
 Text GLabel 4000 4850 2    60   BiDi
 GPIO_TDO
 Text GLabel 4600 4750 0    60   BiDi
