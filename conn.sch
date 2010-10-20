@@ -1,11 +1,11 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
+LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 7
+Sheet 6 8
 Title ""
-Date "27 aug 2010"
+Date "20 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -222,28 +222,28 @@ Wire Wire Line
 Wire Wire Line
 	8000 6250 8100 6250
 $Comp
-L GND #PWR01
+L GND #PWR51
 U 1 1 4C51E96A
 P 8000 4550
-F 0 "#PWR01" H 8000 4550 30  0001 C C
+F 0 "#PWR51" H 8000 4550 30  0001 C C
 F 1 "GND" H 8000 4480 30  0001 C C
 	1    8000 4550
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR54
 U 1 1 4C44B3FC
 P 8750 2150
-F 0 "#PWR02" H 8750 2150 30  0001 C C
+F 0 "#PWR54" H 8750 2150 30  0001 C C
 F 1 "GND" H 8750 2080 30  0001 C C
 	1    8750 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR03
+L VCC #PWR53
 U 1 1 4C44B3D3
 P 8750 1750
-F 0 "#PWR03" H 8750 1850 30  0001 C C
+F 0 "#PWR53" H 8750 1850 30  0001 C C
 F 1 "VCC" H 8750 1850 30  0000 C C
 	1    8750 1750
 	1    0    0    -1  
@@ -297,55 +297,55 @@ F 1 "CONN_32" V 7100 5000 60  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR47
 U 1 1 4B915C87
 P 6600 4250
-F 0 "#PWR06" H 6600 4250 30  0001 C C
+F 0 "#PWR47" H 6600 4250 30  0001 C C
 F 1 "GND" H 6600 4180 30  0001 C C
 	1    6600 4250
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR52
 U 1 1 4B915C59
 P 8000 6550
-F 0 "#PWR07" H 8000 6550 30  0001 C C
+F 0 "#PWR52" H 8000 6550 30  0001 C C
 F 1 "GND" H 8000 6480 30  0001 C C
 	1    8000 6550
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR49
 U 1 1 4B915C57
 P 6600 6650
-F 0 "#PWR08" H 6600 6650 30  0001 C C
+F 0 "#PWR49" H 6600 6650 30  0001 C C
 F 1 "GND" H 6600 6580 30  0001 C C
 	1    6600 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR50
 U 1 1 4B915C54
 P 8000 3450
-F 0 "#PWR09" H 8000 3450 30  0001 C C
+F 0 "#PWR50" H 8000 3450 30  0001 C C
 F 1 "GND" H 8000 3380 30  0001 C C
 	1    8000 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR010
+L GND #PWR48
 U 1 1 4B915C51
 P 6600 5950
-F 0 "#PWR010" H 6600 5950 30  0001 C C
+F 0 "#PWR48" H 6600 5950 30  0001 C C
 F 1 "GND" H 6600 5880 30  0001 C C
 	1    6600 5950
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR46
 U 1 1 4B915C4B
 P 6600 3350
-F 0 "#PWR011" H 6600 3350 30  0001 C C
+F 0 "#PWR46" H 6600 3350 30  0001 C C
 F 1 "GND" H 6600 3280 30  0001 C C
 	1    6600 3350
 	1    0    0    1   
@@ -505,19 +505,19 @@ JTAG-TMS
 Text GLabel 3850 1600 2    60   BiDi
 JTAG-TRST
 $Comp
-L GND #PWR012
+L GND #PWR45
 U 1 1 4B9142AB
 P 3850 2000
-F 0 "#PWR012" H 3850 2000 30  0001 C C
+F 0 "#PWR45" H 3850 2000 30  0001 C C
 F 1 "GND" H 3850 1930 30  0001 C C
 	1    3850 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR013
+L VCC #PWR44
 U 1 1 4B9142AA
 P 2850 1500
-F 0 "#PWR013" H 2850 1600 30  0001 C C
+F 0 "#PWR44" H 2850 1600 30  0001 C C
 F 1 "VCC" H 2850 1600 30  0000 C C
 	1    2850 1500
 	1    0    0    -1  

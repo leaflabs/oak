@@ -1,11 +1,11 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
+LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 7 7
+Sheet 8 8
 Title ""
-Date "27 aug 2010"
+Date "20 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -385,10 +385,10 @@ Kmarq B 4650 1550 "Warning Pin power_in not driven (Net 4)" F=1
 Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 2)" F=1
 NoConn ~ 7550 1550
 $Comp
-L GND #PWR042
+L GND #PWR11
 U 1 1 4BBE4414
 P 10350 1950
-F 0 "#PWR042" H 10350 1950 30  0001 C C
+F 0 "#PWR11" H 10350 1950 30  0001 C C
 F 1 "GND" H 10350 1880 30  0001 C C
 	1    10350 1950
 	1    0    0    -1  
@@ -441,19 +441,19 @@ F 1 "STM32F103ZE" H 5750 3600 60  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR043
+L VCC #PWR7
 U 1 1 4B918520
 P 5750 1350
-F 0 "#PWR043" H 5750 1450 30  0001 C C
+F 0 "#PWR7" H 5750 1450 30  0001 C C
 F 1 "VCC" H 5750 1450 30  0000 C C
 	1    5750 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR3
 U 1 1 4B915FBB
 P 1950 3850
-F 0 "#PWR044" H 1950 3850 30  0001 C C
+F 0 "#PWR3" H 1950 3850 30  0001 C C
 F 1 "GND" H 1950 3780 30  0001 C C
 	1    1950 3850
 	1    0    0    -1  
@@ -681,10 +681,10 @@ FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
 FSMC_D2
 $Comp
-L GND #PWR045
+L GND #PWR6
 U 1 1 4B8B0CB9
 P 4900 1350
-F 0 "#PWR045" H 4900 1350 30  0001 C C
+F 0 "#PWR6" H 4900 1350 30  0001 C C
 F 1 "GND" H 4900 1280 30  0001 C C
 	1    4900 1350
 	1    0    0    1   
@@ -699,10 +699,10 @@ F 1 "VAA" H 4700 1460 30  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR8
 U 1 1 4B8B0C8C
 P 6950 1350
-F 0 "#PWR046" H 6950 1350 30  0001 C C
+F 0 "#PWR8" H 6950 1350 30  0001 C C
 F 1 "GND" H 6950 1280 30  0001 C C
 	1    6950 1350
 	1    0    0    1   
@@ -712,10 +712,10 @@ BOOT0
 Text Label 3850 6350 0    60   ~
 BOOT0
 $Comp
-L VCC #PWR047
+L VCC #PWR4
 U 1 1 4B8ADEC7
 P 3300 6600
-F 0 "#PWR047" H 3300 6700 30  0001 C C
+F 0 "#PWR4" H 3300 6700 30  0001 C C
 F 1 "VCC" H 3300 6700 30  0000 C C
 	1    3300 6600
 	-1   0    0    -1  
@@ -730,10 +730,10 @@ F 1 "8Mhz" H 8500 1200 50  0000 L C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR10
 U 1 1 4B8383A4
 P 9350 1500
-F 0 "#PWR048" H 9350 1500 30  0001 C C
+F 0 "#PWR10" H 9350 1500 30  0001 C C
 F 1 "GND" H 9350 1430 30  0001 C C
 	1    9350 1500
 	1    0    0    -1  
@@ -757,10 +757,10 @@ F 1 "16pF" H 8950 950 50  0000 L C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR049
+L GND #PWR9
 U 1 1 4B83757E
 P 8250 800
-F 0 "#PWR049" H 8250 800 30  0001 C C
+F 0 "#PWR9" H 8250 800 30  0001 C C
 F 1 "GND" H 8250 730 30  0001 C C
 	1    8250 800 
 	1    0    0    -1  
@@ -775,19 +775,19 @@ F 1 "10k" V 8000 700 50  0000 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR050
+L GND #PWR2
 U 1 1 4B83757C
 P 1050 7300
-F 0 "#PWR050" H 1050 7300 30  0001 C C
+F 0 "#PWR2" H 1050 7300 30  0001 C C
 F 1 "GND" H 1050 7230 30  0001 C C
 	1    1050 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR051
+L VCC #PWR1
 U 1 1 4B83757A
 P 1050 6200
-F 0 "#PWR051" H 1050 6300 30  0001 C C
+F 0 "#PWR1" H 1050 6300 30  0001 C C
 F 1 "VCC" H 1050 6300 30  0000 C C
 	1    1050 6200
 	1    0    0    -1  
