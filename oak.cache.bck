@@ -1,12 +1,7 @@
-EESchema-DOCLIB  Version 2.0  20/10/2010-13:22:54
+EESchema-DOCLIB  Version 2.0  20/10/2010-15:26:03
 #
 $CMP C
 D Condensateur non polarise
-$ENDCMP
-#
-$CMP CONN_16
-D Symbole general de connexion
-K CONN
 $ENDCMP
 #
 $CMP CONN_2
@@ -63,12 +58,6 @@ $ENDCMP
 $CMP R
 D Resistance
 K R DEV
-$ENDCMP
-#
-$CMP XC3S250E
-D spartan 2
-K FPGA
-F xilinx/spartan2e/spartan2e.pdf
 $ENDCMP
 #
 #End Doc Library

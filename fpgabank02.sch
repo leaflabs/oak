@@ -1,0 +1,585 @@
+EESchema Schematic File Version 2
+LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projects/leafhw/libraries/okie,/home/jessb/Projects/leafhw/libraries/jessb,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 2 10
+Title ""
+Date "20 oct 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7350 1400 7450 1400
+Text GLabel 7450 1400 2    60   BiDi
+FPGAIO_23
+Wire Wire Line
+	7350 1600 7450 1600
+Text GLabel 7450 1600 2    60   BiDi
+FPGAIO_24
+Wire Wire Line
+	7350 1900 7450 1900
+Text GLabel 7450 1900 2    60   BiDi
+FPGAIO_25
+Wire Wire Line
+	7350 4400 7450 4400
+Text GLabel 7450 4400 2    60   BiDi
+FPGAIO_46
+Wire Wire Line
+	7350 3900 7450 3900
+Wire Wire Line
+	7350 4000 7450 4000
+Wire Wire Line
+	7350 4100 7450 4100
+Wire Wire Line
+	7350 4200 7450 4200
+Text GLabel 7450 4200 2    60   BiDi
+FPGAIO_45
+Text GLabel 7450 4100 2    60   BiDi
+FPGAIO_44
+Text GLabel 7450 4000 2    60   BiDi
+FPGAIO_43
+Text GLabel 7450 3900 2    60   BiDi
+FPGAIO_42
+Wire Wire Line
+	7350 3500 7450 3500
+Wire Wire Line
+	7350 3600 7450 3600
+Wire Wire Line
+	7350 3700 7450 3700
+Wire Wire Line
+	7350 3800 7450 3800
+Text GLabel 7450 3800 2    60   BiDi
+FPGAIO_41
+Text GLabel 7450 3700 2    60   BiDi
+FPGAIO_40
+Text GLabel 7450 3600 2    60   BiDi
+FPGAIO_39
+Text GLabel 7450 3500 2    60   BiDi
+FPGAIO_38
+Wire Wire Line
+	7350 2900 7450 2900
+Wire Wire Line
+	7350 3000 7450 3000
+Wire Wire Line
+	7350 3100 7450 3100
+Wire Wire Line
+	7350 3200 7450 3200
+Text GLabel 7450 3200 2    60   BiDi
+FPGAIO_37
+Text GLabel 7450 3100 2    60   BiDi
+FPGAIO_36
+Text GLabel 7450 3000 2    60   BiDi
+FPGAIO_35
+Text GLabel 7450 2900 2    60   BiDi
+FPGAIO_34
+Wire Wire Line
+	7350 2100 7450 2100
+Wire Wire Line
+	7350 2200 7450 2200
+Wire Wire Line
+	7350 2300 7450 2300
+Wire Wire Line
+	7350 2400 7450 2400
+Wire Wire Line
+	7350 2500 7450 2500
+Wire Wire Line
+	7350 2600 7450 2600
+Wire Wire Line
+	7350 2700 7450 2700
+Wire Wire Line
+	7350 2800 7450 2800
+Text GLabel 7450 2800 2    60   BiDi
+FPGAIO_33
+Text GLabel 7450 2700 2    60   BiDi
+FPGAIO_32
+Text GLabel 7450 2600 2    60   BiDi
+FPGAIO_31
+Text GLabel 7450 2500 2    60   BiDi
+FPGAIO_30
+Text GLabel 7450 2400 2    60   BiDi
+FPGAIO_29
+Text GLabel 7450 2300 2    60   BiDi
+FPGAIO_28
+Text GLabel 7450 2200 2    60   BiDi
+FPGAIO_27
+Text GLabel 7450 2100 2    60   BiDi
+FPGAIO_26
+Wire Wire Line
+	7350 5300 7450 5300
+Text GLabel 7450 5300 2    60   BiDi
+FPGAIP_15
+Wire Wire Line
+	7350 5100 7450 5100
+Text GLabel 7450 5100 2    60   BiDi
+FPGAIP_14
+Wire Wire Line
+	7350 4300 8750 4300
+Wire Wire Line
+	3350 4200 3450 4200
+Connection ~ 3450 1100
+Wire Wire Line
+	3450 1100 3450 1300
+Wire Wire Line
+	3450 1300 3350 1300
+Wire Wire Line
+	7450 1100 7450 1300
+Wire Wire Line
+	7450 1300 7350 1300
+Wire Wire Line
+	4200 1100 4200 1000
+Wire Wire Line
+	5950 1500 4200 1500
+Connection ~ 5250 1500
+Connection ~ 4550 1500
+Connection ~ 4200 1100
+Connection ~ 4900 1100
+Connection ~ 5600 1100
+Connection ~ 5250 1100
+Connection ~ 4550 1100
+Connection ~ 4200 1500
+Connection ~ 4900 1500
+Connection ~ 5600 1500
+Wire Wire Line
+	4200 1500 4200 1600
+Wire Wire Line
+	3350 1100 5950 1100
+Wire Wire Line
+	8200 1100 8200 1000
+Wire Wire Line
+	9950 1500 8200 1500
+Connection ~ 9250 1500
+Connection ~ 8550 1500
+Connection ~ 8200 1100
+Connection ~ 8900 1100
+Connection ~ 9600 1100
+Connection ~ 9250 1100
+Connection ~ 8550 1100
+Connection ~ 8200 1500
+Connection ~ 8900 1500
+Connection ~ 9600 1500
+Wire Wire Line
+	8200 1500 8200 1600
+Wire Wire Line
+	7350 1100 9950 1100
+Wire Wire Line
+	7350 3300 7450 3300
+Wire Wire Line
+	7350 1700 7450 1700
+Wire Wire Line
+	7350 1500 7450 1500
+Wire Wire Line
+	7350 3400 7450 3400
+Wire Wire Line
+	7350 5200 7450 5200
+Wire Wire Line
+	3350 2600 3450 2600
+Wire Wire Line
+	3350 2700 3450 2700
+Wire Wire Line
+	9250 4300 9350 4300
+Wire Wire Line
+	8650 4800 8650 4900
+Wire Wire Line
+	8650 4400 8650 4300
+Connection ~ 8650 4300
+Connection ~ 7450 1100
+Wire Wire Line
+	7350 1200 7450 1200
+Connection ~ 7450 1200
+Wire Wire Line
+	3350 1200 3450 1200
+Connection ~ 3450 1200
+Wire Wire Line
+	3350 4300 3450 4300
+Wire Wire Line
+	3350 4000 3450 4000
+Wire Wire Line
+	3350 4100 3450 4100
+Wire Wire Line
+	3350 3800 3450 3800
+Wire Wire Line
+	7350 2000 7450 2000
+Wire Wire Line
+	7350 1800 7450 1800
+Wire Wire Line
+	3350 1400 3450 1400
+Wire Wire Line
+	3350 1500 3450 1500
+Wire Wire Line
+	3350 1600 3450 1600
+Wire Wire Line
+	3350 1700 3450 1700
+Wire Wire Line
+	3350 1800 3450 1800
+Wire Wire Line
+	3350 1900 3450 1900
+Wire Wire Line
+	3350 2000 3450 2000
+Wire Wire Line
+	3350 2100 3450 2100
+Wire Wire Line
+	3350 2200 3450 2200
+Wire Wire Line
+	3350 2300 3450 2300
+Wire Wire Line
+	3350 2400 3450 2400
+Wire Wire Line
+	3350 2500 3450 2500
+Wire Wire Line
+	3350 2800 3450 2800
+Wire Wire Line
+	3350 2900 3450 2900
+Wire Wire Line
+	3350 3000 3450 3000
+Wire Wire Line
+	3350 3100 3450 3100
+Wire Wire Line
+	3350 3200 3450 3200
+Wire Wire Line
+	3350 3300 3450 3300
+Wire Wire Line
+	3350 3400 3450 3400
+Wire Wire Line
+	3350 3500 3450 3500
+Wire Wire Line
+	3350 3600 3450 3600
+Wire Wire Line
+	3350 3700 3450 3700
+Wire Wire Line
+	3350 3900 3450 3900
+Wire Wire Line
+	3350 4400 3450 4400
+Wire Wire Line
+	3350 4500 3450 4500
+Wire Wire Line
+	3350 4600 3450 4600
+Wire Wire Line
+	3350 4700 3450 4700
+Wire Wire Line
+	3350 4800 3450 4800
+Wire Wire Line
+	3350 4900 3450 4900
+Wire Wire Line
+	3350 5000 3450 5000
+Wire Wire Line
+	3350 5100 3450 5100
+Wire Wire Line
+	7350 4500 7450 4500
+Wire Wire Line
+	7350 4600 7450 4600
+Wire Wire Line
+	7350 4700 7450 4700
+Wire Wire Line
+	7350 4800 7450 4800
+Wire Wire Line
+	7350 4900 7450 4900
+Wire Wire Line
+	7350 5000 7450 5000
+Text GLabel 7450 5000 2    60   BiDi
+FPGAIP_13
+Text GLabel 7450 4900 2    60   BiDi
+FPGAIP_12
+Text GLabel 7450 4800 2    60   BiDi
+FPGAIP_11
+Text GLabel 7450 4700 2    60   BiDi
+FPGAIP_10
+Text GLabel 7450 4600 2    60   BiDi
+FPGAIP_9
+Text GLabel 7450 4500 2    60   BiDi
+FPGAIP_8
+Text GLabel 3450 5100 2    60   BiDi
+FPGAIP_7
+Text GLabel 3450 5000 2    60   BiDi
+FPGAIP_6
+Text GLabel 3450 4900 2    60   BiDi
+FPGAIP_5
+Text GLabel 3450 4800 2    60   BiDi
+FPGAIP_4
+Text GLabel 3450 4700 2    60   BiDi
+FPGAIP_3
+Text GLabel 3450 4600 2    60   BiDi
+FPGAIP_2
+Text GLabel 3450 4500 2    60   BiDi
+FPGAIP_1
+Text GLabel 3450 4400 2    60   BiDi
+FPGAIP_0
+Text GLabel 3450 3900 2    60   BiDi
+FPGAIO_22
+Text GLabel 3450 3700 2    60   BiDi
+FPGAIO_21
+Text GLabel 3450 3600 2    60   BiDi
+FPGAIO_20
+Text GLabel 3450 3500 2    60   BiDi
+FPGAIO_19
+Text GLabel 3450 3400 2    60   BiDi
+FPGAIO_18
+Text GLabel 3450 3300 2    60   BiDi
+FPGAIO_17
+Text GLabel 3450 3200 2    60   BiDi
+FPGAIO_16
+Text GLabel 3450 3100 2    60   BiDi
+FPGAIO_15
+Text GLabel 3450 3000 2    60   BiDi
+FPGAIO_14
+Text GLabel 3450 2900 2    60   BiDi
+FPGAIO_13
+Text GLabel 3450 2800 2    60   BiDi
+FPGAIO_12
+Text GLabel 3450 2500 2    60   BiDi
+FPGAIO_11
+Text GLabel 3450 2400 2    60   BiDi
+FPGAIO_10
+Text GLabel 3450 2300 2    60   BiDi
+FPGAIO_9
+Text GLabel 3450 2200 2    60   BiDi
+FPGAIO_8
+Text GLabel 3450 2100 2    60   BiDi
+FPGAIO_7
+Text GLabel 3450 2000 2    60   BiDi
+FPGAIO_6
+Text GLabel 3450 1900 2    60   BiDi
+FPGAIO_5
+Text GLabel 3450 1800 2    60   BiDi
+FPGAIO_4
+Text GLabel 3450 1700 2    60   BiDi
+FPGAIO_3
+Text GLabel 3450 1600 2    60   BiDi
+FPGAIO_2
+Text GLabel 3450 1500 2    60   BiDi
+FPGAIO_1
+Text GLabel 3450 1400 2    60   BiDi
+FPGAIO_0
+$Comp
+L GND #PWR?
+U 1 1 4CBEEC11
+P 3450 4200
+F 0 "#PWR?" H 3450 4200 30  0001 C C
+F 1 "GND" H 3450 4130 30  0001 C C
+	1    3450 4200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7450 1800 2    60   BiDi
+SDRAM_A5
+Text GLabel 7450 2000 2    60   BiDi
+SDRAM_A4
+Text GLabel 3450 3800 2    60   BiDi
+SDRAM_A3
+Text GLabel 3450 4100 2    60   BiDi
+SDRAM_A2
+Text GLabel 3450 4000 2    60   BiDi
+SDRAM_A1
+Text GLabel 3450 4300 2    60   BiDi
+SDRAM_A0
+$Comp
+L GND #PWR101
+U 1 1 4CBEE5DC
+P 4200 1600
+F 0 "#PWR101" H 4200 1600 30  0001 C C
+F 1 "GND" H 4200 1530 30  0001 C C
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR100
+U 1 1 4CBEE5DB
+P 4200 1000
+F 0 "#PWR100" H 4200 1100 30  0001 C C
+F 1 "VCC" H 4200 1100 30  0000 C C
+	1    4200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C121
+U 1 1 4CBEE5DA
+P 5950 1300
+F 0 "C121" H 6000 1400 50  0000 L C
+F 1 "1nF" H 6000 1200 50  0000 L C
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C120
+U 1 1 4CBEE5D9
+P 5600 1300
+F 0 "C120" H 5650 1400 50  0000 L C
+F 1 "1nF" H 5650 1200 50  0000 L C
+	1    5600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C119
+U 1 1 4CBEE5D8
+P 5250 1300
+F 0 "C119" H 5300 1400 50  0000 L C
+F 1 "1nF" H 5300 1200 50  0000 L C
+	1    5250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C118
+U 1 1 4CBEE5D7
+P 4900 1300
+F 0 "C118" H 4950 1400 50  0000 L C
+F 1 "47nF" H 4950 1200 50  0000 L C
+	1    4900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C117
+U 1 1 4CBEE5D6
+P 4550 1300
+F 0 "C117" H 4600 1400 50  0000 L C
+F 1 "47nF" H 4600 1200 50  0000 L C
+	1    4550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C116
+U 1 1 4CBEE5D5
+P 4200 1300
+F 0 "C116" H 4250 1400 50  0000 L C
+F 1 "47nF" H 4250 1200 50  0000 L C
+	1    4200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR104
+U 1 1 4CBEE5CF
+P 8200 1600
+F 0 "#PWR104" H 8200 1600 30  0001 C C
+F 1 "GND" H 8200 1530 30  0001 C C
+	1    8200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR103
+U 1 1 4CBEE5CE
+P 8200 1000
+F 0 "#PWR103" H 8200 1100 30  0001 C C
+F 1 "VCC" H 8200 1100 30  0000 C C
+	1    8200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C128
+U 1 1 4CBEE5CD
+P 9950 1300
+F 0 "C128" H 10000 1400 50  0000 L C
+F 1 "1nF" H 10000 1200 50  0000 L C
+	1    9950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C127
+U 1 1 4CBEE5CC
+P 9600 1300
+F 0 "C127" H 9650 1400 50  0000 L C
+F 1 "1nF" H 9650 1200 50  0000 L C
+	1    9600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C126
+U 1 1 4CBEE5CB
+P 9250 1300
+F 0 "C126" H 9300 1400 50  0000 L C
+F 1 "1nF" H 9300 1200 50  0000 L C
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C125
+U 1 1 4CBEE5CA
+P 8900 1300
+F 0 "C125" H 8950 1400 50  0000 L C
+F 1 "47nF" H 8950 1200 50  0000 L C
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C124
+U 1 1 4CBEE5C9
+P 8550 1300
+F 0 "C124" H 8600 1400 50  0000 L C
+F 1 "47nF" H 8600 1200 50  0000 L C
+	1    8550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C123
+U 1 1 4CBEE5C8
+P 8200 1300
+F 0 "C123" H 8250 1400 50  0000 L C
+F 1 "47nF" H 8250 1200 50  0000 L C
+	1    8200 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 3300 2    60   BiDi
+DIN
+Text GLabel 7450 1700 2    60   BiDi
+INIT
+Text GLabel 7450 1500 2    60   BiDi
+M1
+Text GLabel 7450 3400 2    60   BiDi
+M0
+Text GLabel 7450 5200 2    60   BiDi
+M2
+Text GLabel 9350 4300 2    60   BiDi
+SCK
+$Comp
+L GND #PWR102
+U 1 1 4CBEE4FE
+P 8650 4900
+F 0 "#PWR102" H 8650 4900 30  0001 C C
+F 1 "GND" H 8650 4830 30  0001 C C
+	1    8650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C122
+U 1 1 4CBEE4FD
+P 8650 4600
+F 0 "C122" H 8700 4700 50  0000 L C
+F 1 "10pF" H 8700 4500 50  0000 L C
+	1    8650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R50
+U 1 1 4CBEE4FC
+P 9000 4300
+F 0 "R50" V 9080 4300 50  0000 C C
+F 1 "10" V 9000 4300 50  0000 C C
+	1    9000 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 2700 2    60   BiDi
+GCLK4
+Text GLabel 3450 2600 2    60   BiDi
+GCLK5
+$Comp
+L XC3S250EPQ208 U2
+U 3 1 4CBEE48F
+P 7150 3200
+F 0 "U2" H 6750 1000 50  0000 L B
+F 1 "XC3S250EPQ208" H 6750 900 50  0000 L B
+F 2 "xilinx_devices-PQ208" H 7150 3350 50  0001 C C
+	3    7150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC3S250EPQ208 U2
+U 1 1 4CBEE48C
+P 3150 3100
+F 0 "U2" H 2750 900 50  0000 L B
+F 1 "XC3S250EPQ208" H 2750 800 50  0000 L B
+F 2 "xilinx_devices-PQ208" H 3150 3250 50  0001 C C
+	1    3150 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
