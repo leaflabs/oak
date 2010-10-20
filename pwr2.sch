@@ -3,7 +3,7 @@ LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projec
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 9
+Sheet 6 10
 Title ""
 Date "20 oct 2010"
 Rev ""
@@ -94,10 +94,6 @@ Wire Wire Line
 	1900 1350 2000 1350
 Wire Wire Line
 	1900 1150 2000 1150
-Connection ~ 4550 2150
-Wire Wire Line
-	4200 2150 10850 2150
-Connection ~ 4900 2550
 Wire Wire Line
 	8000 3800 8000 3900
 Connection ~ 9050 3800
@@ -118,23 +114,6 @@ Connection ~ 8700 3800
 Connection ~ 9400 3800
 Wire Wire Line
 	8000 3400 8000 3300
-Wire Wire Line
-	7700 2550 7700 2650
-Connection ~ 10150 2550
-Connection ~ 9450 2550
-Connection ~ 8750 2550
-Connection ~ 8050 2550
-Connection ~ 7000 2550
-Connection ~ 6300 2550
-Connection ~ 5600 2550
-Connection ~ 5600 2150
-Connection ~ 6300 2150
-Connection ~ 7000 2150
-Connection ~ 7700 2150
-Connection ~ 8400 2150
-Connection ~ 9100 2150
-Connection ~ 9800 2150
-Connection ~ 10500 2150
 Connection ~ 8750 1450
 Connection ~ 8050 1450
 Connection ~ 9100 1050
@@ -234,25 +213,6 @@ Wire Wire Line
 	2650 6800 3750 6800
 Wire Wire Line
 	2100 5850 2100 6000
-Connection ~ 10150 2150
-Connection ~ 9450 2150
-Connection ~ 8750 2150
-Connection ~ 8050 2150
-Connection ~ 7350 2150
-Connection ~ 6650 2150
-Connection ~ 5950 2150
-Connection ~ 5250 2150
-Connection ~ 5250 2550
-Connection ~ 5950 2550
-Connection ~ 6650 2550
-Connection ~ 7350 2550
-Connection ~ 7700 2550
-Connection ~ 8400 2550
-Connection ~ 9100 2550
-Connection ~ 9800 2550
-Connection ~ 10500 2550
-Wire Wire Line
-	7700 2150 7700 2050
 Wire Wire Line
 	8600 6050 8600 6150
 Connection ~ 9650 6050
@@ -279,10 +239,6 @@ Wire Wire Line
 Connection ~ 7200 6050
 Connection ~ 5200 3800
 Connection ~ 5200 3400
-Connection ~ 4900 2150
-Wire Wire Line
-	4200 2550 10850 2550
-Connection ~ 4550 2550
 Wire Wire Line
 	1900 1250 2000 1250
 Connection ~ 2000 1250
@@ -334,82 +290,82 @@ Connection ~ 6600 5650
 Wire Wire Line
 	4400 3400 10800 3400
 $Comp
-L C C?
+L C C98
 U 1 1 4CBE375B
 P 8000 3600
-F 0 "C?" H 8050 3700 50  0000 L C
+F 0 "C98" H 8050 3700 50  0000 L C
 F 1 "47nF" H 8050 3500 50  0000 L C
 	1    8000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C97
 U 1 1 4CBE375A
 P 7650 3600
-F 0 "C?" H 7700 3700 50  0000 L C
+F 0 "C97" H 7700 3700 50  0000 L C
 F 1 "47nF" H 7700 3500 50  0000 L C
 	1    7650 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C96
 U 1 1 4CBE3759
 P 7300 3600
-F 0 "C?" H 7350 3700 50  0000 L C
+F 0 "C96" H 7350 3700 50  0000 L C
 F 1 "47nF" H 7350 3500 50  0000 L C
 	1    7300 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C95
 U 1 1 4CBE3758
 P 6950 3600
-F 0 "C?" H 7000 3700 50  0000 L C
+F 0 "C95" H 7000 3700 50  0000 L C
 F 1 "47nF" H 7000 3500 50  0000 L C
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C102
 U 1 1 4CBE3740
 P 10800 3600
-F 0 "C?" H 10850 3700 50  0000 L C
+F 0 "C102" H 10850 3700 50  0000 L C
 F 1 "1nF" H 10850 3500 50  0000 L C
 	1    10800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C101
 U 1 1 4CBE373F
 P 10450 3600
-F 0 "C?" H 10500 3700 50  0000 L C
+F 0 "C101" H 10500 3700 50  0000 L C
 F 1 "1nF" H 10500 3500 50  0000 L C
 	1    10450 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C100
 U 1 1 4CBE373E
 P 10100 3600
-F 0 "C?" H 10150 3700 50  0000 L C
+F 0 "C100" H 10150 3700 50  0000 L C
 F 1 "1nF" H 10150 3500 50  0000 L C
 	1    10100 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C99
 U 1 1 4CBE373D
 P 9750 3600
-F 0 "C?" H 9800 3700 50  0000 L C
+F 0 "C99" H 9800 3700 50  0000 L C
 F 1 "1nF" H 9800 3500 50  0000 L C
 	1    9750 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC3S250EPQ208 U?
+L XC3S250EPQ208 U2
 U 7 1 4CBE3568
 P 6300 5750
-F 0 "U?" H 5900 5350 50  0000 L B
+F 0 "U2" H 5900 5350 50  0000 L B
 F 1 "XC3S250EPQ208" H 5900 5250 50  0000 L B
 F 2 "xilinx_devices-PQ208" H 6300 5900 50  0001 C C
 	7    6300 5750
@@ -438,10 +394,10 @@ F 2 "xilinx_devices-PQ208" H 4200 4150 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR66
+L GND #PWR69
 U 1 1 4CBE2EB8
 P 2000 3150
-F 0 "#PWR66" H 2000 3150 30  0001 C C
+F 0 "#PWR69" H 2000 3150 30  0001 C C
 F 1 "GND" H 2000 3080 30  0001 C C
 	1    2000 3150
 	1    0    0    -1  
@@ -490,24 +446,6 @@ P 5200 3600
 F 0 "C51" H 5250 3700 50  0000 L C
 F 1 "10uF" H 5250 3500 50  0000 L C
 	1    5200 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C40
-U 1 1 4CAA9A61
-P 4200 2350
-F 0 "C40" H 4250 2450 50  0000 L C
-F 1 "0.47uF" H 4250 2250 50  0000 L C
-	1    4200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C41
-U 1 1 4CAA9A5A
-P 4550 2350
-F 0 "C41" H 4600 2450 50  0000 L C
-F 1 "10uF" H 4600 2250 50  0000 L C
-	1    4550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -692,188 +630,6 @@ P 5550 3600
 F 0 "C55" H 5600 3700 50  0000 L C
 F 1 "47nF" H 5600 3500 50  0000 L C
 	1    5550 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR78
-U 1 1 4CAA98F7
-P 7700 2650
-F 0 "#PWR78" H 7700 2650 30  0001 C C
-F 1 "GND" H 7700 2580 30  0001 C C
-	1    7700 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR77
-U 1 1 4CAA98F5
-P 7700 2050
-F 0 "#PWR77" H 7700 2150 30  0001 C C
-F 1 "VCC" H 7700 2150 30  0000 C C
-	1    7700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C91
-U 1 1 4CAA9878
-P 10850 2350
-F 0 "C91" H 10900 2450 50  0000 L C
-F 1 "1nF" H 10900 2250 50  0000 L C
-	1    10850 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C90
-U 1 1 4CAA9877
-P 10500 2350
-F 0 "C90" H 10550 2450 50  0000 L C
-F 1 "1nF" H 10550 2250 50  0000 L C
-	1    10500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C88
-U 1 1 4CAA9876
-P 10150 2350
-F 0 "C88" H 10200 2450 50  0000 L C
-F 1 "1nF" H 10200 2250 50  0000 L C
-	1    10150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C87
-U 1 1 4CAA986F
-P 9800 2350
-F 0 "C87" H 9850 2450 50  0000 L C
-F 1 "1nF" H 9850 2250 50  0000 L C
-	1    9800 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C86
-U 1 1 4CAA986E
-P 9450 2350
-F 0 "C86" H 9500 2450 50  0000 L C
-F 1 "1nF" H 9500 2250 50  0000 L C
-	1    9450 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C82
-U 1 1 4CAA986D
-P 9100 2350
-F 0 "C82" H 9150 2450 50  0000 L C
-F 1 "1nF" H 9150 2250 50  0000 L C
-	1    9100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C78
-U 1 1 4CAA9862
-P 8750 2350
-F 0 "C78" H 8800 2450 50  0000 L C
-F 1 "1nF" H 8800 2250 50  0000 L C
-	1    8750 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C74
-U 1 1 4CAA985F
-P 8400 2350
-F 0 "C74" H 8450 2450 50  0000 L C
-F 1 "1nF" H 8450 2250 50  0000 L C
-	1    8400 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C70
-U 1 1 4CAA9853
-P 8050 2350
-F 0 "C70" H 8100 2450 50  0000 L C
-F 1 "1nF" H 8100 2250 50  0000 L C
-	1    8050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C66
-U 1 1 4CAA9850
-P 7700 2350
-F 0 "C66" H 7750 2450 50  0000 L C
-F 1 "47nF" H 7750 2250 50  0000 L C
-	1    7700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C62
-U 1 1 4CAA984F
-P 7350 2350
-F 0 "C62" H 7400 2450 50  0000 L C
-F 1 "47nF" H 7400 2250 50  0000 L C
-	1    7350 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C58
-U 1 1 4CAA984E
-P 7000 2350
-F 0 "C58" H 7050 2450 50  0000 L C
-F 1 "47nF" H 7050 2250 50  0000 L C
-	1    7000 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C54
-U 1 1 4CAA9844
-P 6650 2350
-F 0 "C54" H 6700 2450 50  0000 L C
-F 1 "47nF" H 6700 2250 50  0000 L C
-	1    6650 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C50
-U 1 1 4CAA9842
-P 6300 2350
-F 0 "C50" H 6350 2450 50  0000 L C
-F 1 "47nF" H 6350 2250 50  0000 L C
-	1    6300 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C46
-U 1 1 4CAA983E
-P 5950 2350
-F 0 "C46" H 6000 2450 50  0000 L C
-F 1 "47nF" H 6000 2250 50  0000 L C
-	1    5950 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C44
-U 1 1 4CAA983B
-P 5600 2350
-F 0 "C44" H 5650 2450 50  0000 L C
-F 1 "47nF" H 5650 2250 50  0000 L C
-	1    5600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C43
-U 1 1 4CAA9838
-P 5250 2350
-F 0 "C43" H 5300 2450 50  0000 L C
-F 1 "47nF" H 5300 2250 50  0000 L C
-	1    5250 2350
-	1    0    0    -1  
-$EndComp
-Text Notes 4900 2050 0    60   ~
-VCCO bypass caps
-$Comp
-L C C42
-U 1 1 4CAA9721
-P 4900 2350
-F 0 "C42" H 4950 2450 50  0000 L C
-F 1 "47nF" H 4950 2250 50  0000 L C
-	1    4900 2350
 	1    0    0    -1  
 $EndComp
 Text Notes 5950 950  0    60   ~
@@ -1074,10 +830,10 @@ F 1 "1.5k" V 2800 6450 50  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR69
+L VCC #PWR68
 U 1 1 4CAA92E0
 P 1750 5550
-F 0 "#PWR69" H 1750 5650 30  0001 C C
+F 0 "#PWR68" H 1750 5650 30  0001 C C
 F 1 "VCC" H 1750 5650 30  0000 C C
 	1    1750 5550
 	1    0    0    -1  
@@ -1168,19 +924,19 @@ USBDP
 Text Label 1800 6800 2    60   ~
 USBDM
 $Comp
-L +5V #PWR68
+L +5V #PWR67
 U 1 1 4CAA92D6
 P 1450 6450
-F 0 "#PWR68" H 1450 6540 20  0001 C C
+F 0 "#PWR67" H 1450 6540 20  0001 C C
 F 1 "+5V" H 1450 6540 30  0000 C C
 	1    1450 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR67
+L GND #PWR66
 U 1 1 4CAA92D5
 P 1350 7050
-F 0 "#PWR67" H 1350 7050 30  0001 C C
+F 0 "#PWR66" H 1350 7050 30  0001 C C
 F 1 "GND" H 1350 6980 30  0001 C C
 	1    1350 7050
 	1    0    0    -1  
