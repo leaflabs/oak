@@ -3,7 +3,7 @@ LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projec
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date "20 oct 2010"
 Rev ""
@@ -13,6 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1850 4150 1350 950 
+U 4CBEDFD3
+F0 "SDRAM" 60
+F1 "sdram.sch" 60
+$EndSheet
 $Sheet
 S 1850 2650 1350 1050
 U 4CBE3A2A

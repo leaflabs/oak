@@ -3,7 +3,7 @@ LIBS:power,/home/jessb/Projects/leafhw/library/xilinx_devices,/home/jessb/Projec
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 8
+Sheet 6 9
 Title ""
 Date "20 oct 2010"
 Rev ""
