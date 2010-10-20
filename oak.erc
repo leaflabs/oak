@@ -1,0 +1,29 @@
+ERC control (20/10/2010-21:20:33)
+
+***** Sheet / (Root) 
+
+***** Sheet /FPGA Banks 0, 2/
+
+***** Sheet /SDRAM/
+
+***** Sheet /FPGA Banks 1, 3/
+
+***** Sheet /FPGA JTAG/
+
+***** Sheet /Miscellaneous/
+ERC: Warning Pin input not driven (Net 219) (X= 4.100 inches, Y= 3.450 inches
+ERC: Warning Pin input not driven (Net 218) (X= 4.100 inches, Y= 3.150 inches
+ERC: Warning Pin input not driven (Net 217) (X= 4.100 inches, Y= 3.250 inches
+
+***** Sheet /Connectors/
+
+***** Sheet /Power Supplies/
+ERC: Warning Pin passive Unconnected (X= 2.800 inches, Y= 1.000 inches
+ERC: Warning Pin power_in not driven (Net 139) (X= 8.400 inches, Y= 2.300 inches
+ERC: Warning Pin power_in not driven (Net 137) (X= 9.250 inches, Y= 3.100 inches
+
+***** Sheet /STM32/
+ERC: Warning Pin power_in not driven (Net 111) (X= 10.350 inches, Y= 1.950 inches
+ERC: Warning Pin power_in not driven (Net 7) (X= 4.650 inches, Y= 1.550 inches
+
+ >> Errors ERC: 8
