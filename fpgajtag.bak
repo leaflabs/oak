@@ -13,6 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Kmarq B 6050 5350 "Error: Pin output connected to Pin output (net 218)" F=2
 Wire Wire Line
 	4650 5450 4550 5450
 Wire Wire Line

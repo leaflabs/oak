@@ -13,6 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Kmarq B 8400 2300 "Warning Pin power_in not driven (Net 139)" F=1
+Kmarq B 9250 3100 "Warning Pin power_in not driven (Net 119)" F=1
 Connection ~ 2800 1000
 Connection ~ 3150 2300
 Connection ~ 8150 2400
@@ -303,9 +305,6 @@ Wire Wire Line
 Wire Wire Line
 	950  7400 6750 7400
 Connection ~ 2800 2300
-Kmarq B 2800 1000 "Warning Pin passive Unconnected" F=1
-Kmarq B 8400 2300 "Warning Pin power_in not driven (Net 139)" F=1
-Kmarq B 9250 3100 "Warning Pin power_in not driven (Net 137)" F=1
 $Comp
 L +2.5V #PWR059
 U 1 1 4CAA91D0
