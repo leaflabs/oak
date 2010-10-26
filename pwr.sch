@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 8 9
 Title ""
-Date "20 oct 2010"
+Date "25 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -15,6 +15,24 @@ Comment4 ""
 $EndDescr
 Kmarq B 8400 2300 "Warning Pin power_in not driven (Net 139)" F=1
 Kmarq B 9250 3100 "Warning Pin power_in not driven (Net 119)" F=1
+$Comp
+L CP C137
+U 1 1 4CC5A26D
+P 9250 3500
+F 0 "C137" H 9300 3600 50  0000 L C
+F 1 "100uF" H 9300 3400 50  0000 L C
+	1    9250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C138
+U 1 1 4CC5A258
+P 9250 1300
+F 0 "C138" H 9300 1400 50  0000 L C
+F 1 "100uF" H 9300 1200 50  0000 L C
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
 Connection ~ 2800 1000
 Connection ~ 3150 2300
 Connection ~ 8150 2400
@@ -83,7 +101,7 @@ Wire Wire Line
 	3450 3100 3450 3200
 Connection ~ 2400 2300
 Wire Wire Line
-	2400 2300 5150 2300
+	5150 2300 2400 2300
 Wire Wire Line
 	5150 1600 5150 1700
 Wire Wire Line
@@ -103,12 +121,12 @@ Wire Wire Line
 	5950 1900 5750 1900
 Connection ~ 4950 1400
 Wire Wire Line
-	4950 2500 5150 2500
+	5150 2500 4950 2500
 Wire Wire Line
 	2900 4800 2900 5650
 Connection ~ 2400 3250
 Wire Wire Line
-	2300 3600 2400 3600
+	2400 3600 2300 3600
 Wire Wire Line
 	4850 1500 4850 1600
 Connection ~ 2400 3600
@@ -141,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 6550 3150 6550
 Wire Wire Line
-	3150 6250 3250 6250
+	3250 6250 3150 6250
 Wire Wire Line
 	3650 6550 3750 6550
 Wire Wire Line
@@ -380,10 +398,10 @@ $EndComp
 $Comp
 L C C34
 U 1 1 4CAA8DE2
-P 9250 3500
-F 0 "C34" H 9300 3600 50  0000 L C
-F 1 "100uF" H 9300 3400 50  0000 L C
-	1    9250 3500
+P 2800 2500
+F 0 "C34" H 2850 2600 50  0000 L C
+F 1 "100uF" H 2850 2400 50  0000 L C
+	1    2800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -465,15 +483,6 @@ P 9650 1100
 F 0 "D9" H 9650 1200 50  0000 C C
 F 1 "Power" H 9650 1000 50  0000 C C
 	1    9650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C33
-U 1 1 4CAA8C5C
-P 9250 1300
-F 0 "C33" H 9300 1400 50  0000 L C
-F 1 "100uF" H 9300 1200 50  0000 L C
-	1    9250 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -645,15 +654,6 @@ P 3150 2500
 F 0 "C27" H 3200 2600 50  0000 L C
 F 1 "1uF" H 3200 2400 50  0000 L C
 	1    3150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C25
-U 1 1 4CAA77AD
-P 2800 2500
-F 0 "C25" H 2850 2600 50  0000 L C
-F 1 "100uF" H 2850 2400 50  0000 L C
-	1    2800 2500
 	1    0    0    -1  
 $EndComp
 $Comp

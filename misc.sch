@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 9
 Title ""
-Date "20 oct 2010"
+Date "25 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,7 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Kmarq B 4100 3450 "Warning Pin input not driven (Net 218)" F=1
 Wire Wire Line
 	4200 3250 4100 3250
 Wire Wire Line
