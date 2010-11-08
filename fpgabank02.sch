@@ -13,6 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L +3.3V #PWR01
+U 1 1 4CD855EF
+P 8100 1900
+F 0 "#PWR01" H 8100 1860 30  0001 C C
+F 1 "+3.3V" H 8100 2010 30  0000 C C
+	1    8100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 4CD85555
+P 4100 1900
+F 0 "#PWR02" H 4100 1860 30  0001 C C
+F 1 "+3.3V" H 4100 2010 30  0000 C C
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7250 5900 7350 5900
 Wire Wire Line
@@ -385,15 +403,6 @@ F 1 "GND" H 4100 2430 30  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
-U 1 1 4CBEE5DB
-P 4100 1900
-F 0 "#PWR05" H 4100 2000 30  0001 C C
-F 1 "VCC" H 4100 2000 30  0000 C C
-	1    4100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C64
 U 1 1 4CBEE5DA
 P 5850 2200
@@ -448,21 +457,12 @@ F 1 "47nF" H 4150 2100 50  0000 L C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR05
 U 1 1 4CBEE5CF
 P 8100 2500
-F 0 "#PWR06" H 8100 2500 30  0001 C C
+F 0 "#PWR05" H 8100 2500 30  0001 C C
 F 1 "GND" H 8100 2430 30  0001 C C
 	1    8100 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR07
-U 1 1 4CBEE5CE
-P 8100 1900
-F 0 "#PWR07" H 8100 2000 30  0001 C C
-F 1 "VCC" H 8100 2000 30  0000 C C
-	1    8100 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -532,10 +532,10 @@ M2
 Text GLabel 9250 5200 2    60   BiDi
 SCK
 $Comp
-L GND #PWR08
+L GND #PWR06
 U 1 1 4CBEE4FE
 P 8550 5800
-F 0 "#PWR08" H 8550 5800 30  0001 C C
+F 0 "#PWR06" H 8550 5800 30  0001 C C
 F 1 "GND" H 8550 5730 30  0001 C C
 	1    8550 5800
 	1    0    0    -1  

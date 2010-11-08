@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-15:42:41
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-17:49:06
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -725,14 +725,14 @@ BeginCmp
 TimeStamp = /4CAA12A2/4CAA89E5;
 Reference = D4;
 ValeurCmp = DIODE;
-IdModule  = SOT23_6;
+IdModule  = MBRM120;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA8DDB;
 Reference = D5;
 ValeurCmp = DIODE;
-IdModule  = SOT23_6;
+IdModule  = DO-214AB;
 EndCmp
 
 BeginCmp
