@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 26/10/2010-01:41:23
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-15:42:41
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -781,7 +781,7 @@ BeginCmp
 TimeStamp = /4CAA922C/4CBF092F;
 Reference = IC2;
 ValeurCmp = XOSC;
-IdModule  = socket_4x2;
+IdModule  = 8dip300;
 EndCmp
 
 BeginCmp
@@ -837,7 +837,7 @@ BeginCmp
 TimeStamp = /4CAA12A2/4B91871C;
 Reference = P3;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = S2B-PH;
 EndCmp
 
 BeginCmp
@@ -897,24 +897,24 @@ IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAB1D66/4CAB3BBB;
+TimeStamp = /4CAB1D66/4CD73823;
 Reference = P12;
-ValeurCmp = CONN_7X2;
-IdModule  = PIN_ARRAY_7x2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA88C4;
 Reference = Q1;
 ValeurCmp = MOSFET_P;
-IdModule  = ;
+IdModule  = SOT23-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA8DDA;
 Reference = Q2;
 ValeurCmp = MOSFET_P;
-IdModule  = ;
+IdModule  = SOT23-3;
 EndCmp
 
 BeginCmp
@@ -1018,13 +1018,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAB1D66/4CAB4472;
 Reference = R13;
-ValeurCmp = 10k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAB1D66/4CAB44CB;
-Reference = R14;
 ValeurCmp = 10k;
 IdModule  = SM0402;
 EndCmp
@@ -1198,10 +1191,31 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CAB1D66/4CD736C2;
+Reference = R39;
+ValeurCmp = 10k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4CD819E2;
+Reference = R40;
+ValeurCmp = 1.5k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4CD819E4;
+Reference = R41;
+ValeurCmp = 1.5k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CAA12A2/4CAA6FDF;
 Reference = S1;
 ValeurCmp = SWITCH;
-IdModule  = ;
+IdModule  = SWITCH_SK;
 EndCmp
 
 BeginCmp
@@ -1215,14 +1229,14 @@ BeginCmp
 TimeStamp = /4CAB1D66/4CBF15A2;
 Reference = U1;
 ValeurCmp = DG4053A;
-IdModule  = ;
+IdModule  = TSSOP16;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CBEDFD3/4CBEE077;
 Reference = U2;
 ValeurCmp = MT48LC16M;
-IdModule  = ;
+IdModule  = TSOP54;
 EndCmp
 
 BeginCmp
@@ -1243,7 +1257,7 @@ BeginCmp
 TimeStamp = /4CAB1D66/4CAB2963;
 Reference = U5;
 ValeurCmp = XCF04S;
-IdModule  = ;
+IdModule  = TSSOP20;
 EndCmp
 
 BeginCmp
