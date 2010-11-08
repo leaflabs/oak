@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-17:49:06
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-20:59:50
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -778,20 +778,6 @@ IdModule  = VQFN20;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA922C/4CBF092F;
-Reference = IC2;
-ValeurCmp = XOSC;
-IdModule  = 8dip300;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA922C/4CBF092E;
-Reference = IC3;
-ValeurCmp = XOSC;
-IdModule  = CRYSTAL-SMD-7x5;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CAA12A2/4CAA8AC4;
 Reference = L1;
 ValeurCmp = 5uH;
@@ -801,7 +787,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA8DDE;
 Reference = L2;
-ValeurCmp = 5uH;
+ValeurCmp = 15uH;
 IdModule  = SMCDRH;
 EndCmp
 
@@ -817,6 +803,20 @@ TimeStamp = /4CAA1009/4B8383C6;
 Reference = OSC1;
 ValeurCmp = 8Mhz;
 IdModule  = CRYSTAL-SMD-5x3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4CD86473;
+Reference = OSC2;
+ValeurCmp = XOSC_SOCKET;
+IdModule  = socket_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4CD86486;
+Reference = OSC3;
+ValeurCmp = XOSC;
+IdModule  = CRYSTAL-SMD-7x5;
 EndCmp
 
 BeginCmp
