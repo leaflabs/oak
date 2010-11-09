@@ -14,6 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L XOSC OSC?
+U 1 1 4CD86486
+P 8900 5800
+F 0 "OSC?" H 8750 5550 60  0000 C C
+F 1 "XOSC" H 8800 6050 60  0000 C C
+	1    8900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
 L XOSC_SOCKET OSC?
 U 1 1 4CD86473
 P 6900 5800
@@ -456,15 +465,6 @@ P 8050 5800
 F 0 "C13" H 8100 5900 50  0000 L C
 F 1 "0.1uF" H 8100 5700 50  0000 L C
 	1    8050 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L XOSC IC3
-U 1 1 4CBF092E
-P 8900 5800
-F 0 "IC3" H 8750 5550 60  0000 C C
-F 1 "XOSC" H 8800 6050 60  0000 C C
-	1    8900 5800
 	1    0    0    -1  
 $EndComp
 $Comp
