@@ -184,21 +184,21 @@ Text GLabel 3150 3050 2    60   BiDi
 SDRAM_WE
 Text GLabel 3150 2950 2    60   BiDi
 SDRAM_DQML
-Text GLabel 3150 4050 2    60   BiDi
-SDRAM_D15
-Text GLabel 3150 3950 2    60   BiDi
-SDRAM_D14
-Text GLabel 3150 4250 2    60   BiDi
-SDRAM_D13
-Text GLabel 3150 4150 2    60   BiDi
-SDRAM_D12
-Text GLabel 3150 4450 2    60   BiDi
-SDRAM_D11
-Text GLabel 3150 4350 2    60   BiDi
-SDRAM_D10
-Text GLabel 3150 4650 2    60   BiDi
-SDRAM_D9
 Text GLabel 3150 4550 2    60   BiDi
+SDRAM_D15
+Text GLabel 3150 4650 2    60   BiDi
+SDRAM_D14
+Text GLabel 3150 4350 2    60   BiDi
+SDRAM_D13
+Text GLabel 3150 4450 2    60   BiDi
+SDRAM_D12
+Text GLabel 3150 4150 2    60   BiDi
+SDRAM_D11
+Text GLabel 3150 4250 2    60   BiDi
+SDRAM_D10
+Text GLabel 3150 3950 2    60   BiDi
+SDRAM_D9
+Text GLabel 3150 4050 2    60   BiDi
 SDRAM_D8
 Text GLabel 3150 3250 2    60   BiDi
 SDRAM_D7

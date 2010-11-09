@@ -200,21 +200,21 @@ Text GLabel 3150 3950 2    60   BiDi
 SDRAM_D9
 Text GLabel 3150 4050 2    60   BiDi
 SDRAM_D8
-Text GLabel 3150 3250 2    60   BiDi
-SDRAM_D7
-Text GLabel 3150 3150 2    60   BiDi
-SDRAM_D6
-Text GLabel 3150 3450 2    60   BiDi
-SDRAM_D5
-Text GLabel 3150 3350 2    60   BiDi
-SDRAM_D4
-Text GLabel 3150 3650 2    60   BiDi
-SDRAM_D3
-Text GLabel 3150 3550 2    60   BiDi
-SDRAM_D2
-Text GLabel 3150 3850 2    60   BiDi
-SDRAM_D1
 Text GLabel 3150 3750 2    60   BiDi
+SDRAM_D7
+Text GLabel 3150 3850 2    60   BiDi
+SDRAM_D6
+Text GLabel 3150 3550 2    60   BiDi
+SDRAM_D5
+Text GLabel 3150 3650 2    60   BiDi
+SDRAM_D4
+Text GLabel 3150 3350 2    60   BiDi
+SDRAM_D3
+Text GLabel 3150 3450 2    60   BiDi
+SDRAM_D2
+Text GLabel 3150 3150 2    60   BiDi
+SDRAM_D1
+Text GLabel 3150 3250 2    60   BiDi
 SDRAM_D0
 Connection ~ 3150 2050
 Wire Wire Line
