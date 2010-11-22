@@ -1,4 +1,4 @@
-ERC control (8/11/2010-20:50:52)
+ERC control (21/11/2010-21:04:52)
 
 ***** Sheet / (Root) 
 
@@ -15,8 +15,7 @@ ERC control (8/11/2010-20:50:52)
 ***** Sheet /Connectors/
 
 ***** Sheet /Power Supplies/
-ERC: Warning Pin power_in not driven (Net 139) (X= 8.400 inches, Y= 2.300 inches
-ERC: Warning Pin power_in not driven (Net 124) (X= 3.150 inches, Y= 6.150 inches
+ERC: Warning Pin power_in not driven (Net 138) (X= 8.400 inches, Y= 2.300 inches
 ERC: Warning Pin power_in not driven (Net 119) (X= 9.250 inches, Y= 3.100 inches
 
 ***** Sheet /STM32/
@@ -24,4 +23,4 @@ ERC: Warning Pin power_in not driven (Net 115) (X= 3.300 inches, Y= 6.600 inches
 ERC: Warning Pin power_in not driven (Net 7) (X= 4.650 inches, Y= 1.550 inches
 ERC: Warning Pin power_in not driven (Net 5) (X= 10.350 inches, Y= 1.950 inches
 
- >> Errors ERC: 6
+ >> Errors ERC: 5

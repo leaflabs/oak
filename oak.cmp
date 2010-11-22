@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/11/2010-20:59:50
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 21/11/2010-21:11:08
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -820,13 +820,6 @@ IdModule  = CRYSTAL-SMD-7x5;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA132F/4CBF07DA;
-Reference = P1;
-ValeurCmp = CONN_16X2;
-IdModule  = PIN_ARRAY_16x2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CAA12A2/4B91871D;
 Reference = P2;
 ValeurCmp = CONN_2;
@@ -901,6 +894,13 @@ TimeStamp = /4CAB1D66/4CD73823;
 Reference = P12;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA132F/4CE988DE;
+Reference = P13;
+ValeurCmp = CONN_10X2;
+IdModule  = PIN_ARRAY_10x2;
 EndCmp
 
 BeginCmp
