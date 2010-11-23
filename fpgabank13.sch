@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5350 7050 5350
 Wire Wire Line
-	6950 5250 7050 5250
+	6950 2450 7050 2450
 Wire Wire Line
 	6950 2850 7050 2850
 Wire Wire Line
@@ -337,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2050 9850 1950
 Wire Wire Line
-	6950 2450 7050 2450
+	6950 5250 7050 5250
 Wire Wire Line
 	6950 1950 9550 1950
 Wire Wire Line
@@ -429,7 +429,7 @@ F 1 "10k" V 9850 2300 50  0000 C C
 	1    9850 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 2450 2    60   BiDi
+Text GLabel 7050 5250 2    60   BiDi
 FSMC_NBL1
 Text GLabel 7050 5050 2    60   BiDi
 FSMC_NBL0
@@ -449,7 +449,7 @@ Text GLabel 7050 3250 2    60   Input
 FSMC_A12
 Text GLabel 7050 3550 2    60   BiDi
 FSMC_D0
-Text GLabel 7050 5250 2    60   BiDi
+Text GLabel 7050 2450 2    60   BiDi
 FSMC_D1
 Text GLabel 7050 5150 2    60   BiDi
 FSMC_D2

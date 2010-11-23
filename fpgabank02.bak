@@ -110,13 +110,13 @@ Wire Wire Line
 Wire Wire Line
 	7250 2900 7350 2900
 Wire Wire Line
-	3250 4700 3350 4700
-Wire Wire Line
-	3250 5000 3350 5000
+	3250 5200 3350 5200
 Wire Wire Line
 	3250 4900 3350 4900
 Wire Wire Line
-	3250 5200 3350 5200
+	3250 5000 3350 5000
+Wire Wire Line
+	3250 4700 3350 4700
 Connection ~ 3350 2100
 Wire Wire Line
 	3250 2100 3350 2100
@@ -385,13 +385,13 @@ Text GLabel 7350 2700 2    60   BiDi
 SDRAM_A5
 Text GLabel 7350 2900 2    60   BiDi
 SDRAM_A4
-Text GLabel 3350 4700 2    60   BiDi
-SDRAM_A3
-Text GLabel 3350 5000 2    60   BiDi
-SDRAM_A2
-Text GLabel 3350 4900 2    60   BiDi
-SDRAM_A1
 Text GLabel 3350 5200 2    60   BiDi
+SDRAM_A3
+Text GLabel 3350 4900 2    60   BiDi
+SDRAM_A2
+Text GLabel 3350 5000 2    60   BiDi
+SDRAM_A1
+Text GLabel 3350 4700 2    60   BiDi
 SDRAM_A0
 $Comp
 L GND #PWR04
