@@ -238,9 +238,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 1950 5650 1950
 Wire Wire Line
-	6950 5050 7050 5050
+	6950 5350 7050 5350
 Wire Wire Line
-	6950 2650 7050 2650
+	6950 5050 7050 5050
 Wire Wire Line
 	6950 2750 9950 2750
 Wire Wire Line
@@ -272,9 +272,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 4850 7050 4850
 Wire Wire Line
-	7050 6050 6950 6050
+	7050 6150 6950 6150
 Wire Wire Line
-	6950 5150 7050 5150
+	6950 2650 7050 2650
 Wire Wire Line
 	6950 3550 7050 3550
 Wire Wire Line
@@ -282,11 +282,11 @@ Wire Wire Line
 Wire Wire Line
 	6950 3450 7050 3450
 Wire Wire Line
-	6950 5350 7050 5350
+	6950 5150 7050 5150
 Wire Wire Line
 	6950 2450 7050 2450
 Wire Wire Line
-	6950 2850 7050 2850
+	6950 2950 7050 2950
 Wire Wire Line
 	6950 4450 7050 4450
 Wire Wire Line
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5650 7050 5650
 Wire Wire Line
-	6950 6150 7050 6150
+	6950 6050 7050 6050
 Wire Wire Line
 	6950 4950 7050 4950
 Wire Wire Line
@@ -341,7 +341,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 1950 9550 1950
 Wire Wire Line
-	6950 2950 7050 2950
+	6950 2850 7050 2850
 Wire Wire Line
 	3050 2150 3150 2150
 Wire Wire Line
@@ -431,13 +431,13 @@ F 1 "10k" V 9850 2300 50  0000 C C
 $EndComp
 Text GLabel 7050 5250 2    60   BiDi
 FSMC_NBL1
-Text GLabel 7050 5050 2    60   BiDi
+Text GLabel 7050 5350 2    60   BiDi
 FSMC_NBL0
 Text GLabel 9950 2750 2    60   BiDi
 FSMC_NE1
-Text GLabel 7050 2650 2    60   BiDi
+Text GLabel 7050 5050 2    60   BiDi
 FSMC_NWE
-Text GLabel 7050 2950 2    60   BiDi
+Text GLabel 7050 2850 2    60   BiDi
 FSMC_NOE
 Text GLabel 7050 3050 2    60   Input
 FSMC_A14
@@ -451,9 +451,9 @@ Text GLabel 7050 3550 2    60   BiDi
 FSMC_D0
 Text GLabel 7050 2450 2    60   BiDi
 FSMC_D1
-Text GLabel 7050 5150 2    60   BiDi
+Text GLabel 7050 2650 2    60   BiDi
 FSMC_D2
-Text GLabel 7050 2850 2    60   BiDi
+Text GLabel 7050 2950 2    60   BiDi
 FSMC_D3
 Text GLabel 7050 4550 2    60   BiDi
 FSMC_D4
@@ -471,7 +471,7 @@ Text GLabel 7050 3850 2    60   BiDi
 FSMC_D10
 Text GLabel 7050 3950 2    60   BiDi
 FSMC_D11
-Text GLabel 7050 5350 2    60   BiDi
+Text GLabel 7050 5150 2    60   BiDi
 FSMC_D12
 Text GLabel 7050 3650 2    60   BiDi
 FSMC_D13
@@ -491,7 +491,7 @@ Text GLabel 7050 4950 2    60   Input
 FSMC_A7
 Text GLabel 7050 4850 2    60   Input
 FSMC_A6
-Text GLabel 7050 6050 2    60   Input
+Text GLabel 7050 6150 2    60   Input
 FSMC_A5
 Text GLabel 7050 5650 2    60   Input
 FSMC_A4
@@ -501,7 +501,7 @@ Text GLabel 7050 5850 2    60   Input
 FSMC_A2
 Text GLabel 7050 5750 2    60   Input
 FSMC_A1
-Text GLabel 7050 6150 2    60   Input
+Text GLabel 7050 6050 2    60   Input
 FSMC_A0
 $Comp
 L GND #PWR013
