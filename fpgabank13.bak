@@ -240,7 +240,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5350 7050 5350
 Wire Wire Line
-	6950 5150 7050 5150
+	6950 5050 7050 5050
 Wire Wire Line
 	6950 2750 9950 2750
 Wire Wire Line
@@ -282,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3450 7050 3450
 Wire Wire Line
-	6950 5050 7050 5050
+	6950 5150 7050 5150
 Wire Wire Line
 	6950 2450 7050 2450
 Wire Wire Line
@@ -435,7 +435,7 @@ Text GLabel 7050 5350 2    60   BiDi
 FSMC_NBL0
 Text GLabel 9950 2750 2    60   BiDi
 FSMC_NE1
-Text GLabel 7050 5150 2    60   BiDi
+Text GLabel 7050 5050 2    60   BiDi
 FSMC_NWE
 Text GLabel 7050 2850 2    60   BiDi
 FSMC_NOE
@@ -471,7 +471,7 @@ Text GLabel 7050 3850 2    60   BiDi
 FSMC_D10
 Text GLabel 7050 3950 2    60   BiDi
 FSMC_D11
-Text GLabel 7050 5050 2    60   BiDi
+Text GLabel 7050 5150 2    60   BiDi
 FSMC_D12
 Text GLabel 7050 3650 2    60   BiDi
 FSMC_D13
