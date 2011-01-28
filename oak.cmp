@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 21/11/2010-21:11:08
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 28/1/2011-01:17:00
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -298,21 +298,21 @@ BeginCmp
 TimeStamp = /4CAA12A2/4CAA9130;
 Reference = C39;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA922C/4CAA9A78;
 Reference = C40;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA922C/4CAA9A85;
 Reference = C41;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM1210;
 EndCmp
 
 BeginCmp
