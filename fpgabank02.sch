@@ -106,9 +106,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 2300 3350 2300
 Wire Wire Line
-	7250 2700 7350 2700
-Wire Wire Line
 	7250 2900 7350 2900
+Wire Wire Line
+	7250 2700 7350 2700
 Wire Wire Line
 	3250 5200 3350 5200
 Wire Wire Line
@@ -381,9 +381,9 @@ F 1 "GND" H 3350 5030 30  0001 C C
 	1    3350 5100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7350 2700 2    60   BiDi
-SDRAM_A5
 Text GLabel 7350 2900 2    60   BiDi
+SDRAM_A5
+Text GLabel 7350 2700 2    60   BiDi
 SDRAM_A4
 Text GLabel 3350 5200 2    60   BiDi
 SDRAM_A3

@@ -88,14 +88,14 @@ Text GLabel 3150 2450 2    60   BiDi
 SDRAM_A10
 Wire Wire Line
 	3050 2450 3150 2450
-Text GLabel 3150 4950 2    60   BiDi
+Text GLabel 3150 3950 2    60   BiDi
 SDRAM_A12
 Wire Wire Line
-	3050 4950 3150 4950
-Text GLabel 3150 2250 2    60   BiDi
+	3050 3950 3150 3950
+Text GLabel 3150 4050 2    60   BiDi
 SDRAM_A11
 Wire Wire Line
-	3050 2250 3150 2250
+	3050 4050 3150 4050
 Text GLabel 3150 5250 2    60   BiDi
 SDRAM_A9
 Wire Wire Line
@@ -113,37 +113,11 @@ SDRAM_A6
 Wire Wire Line
 	3050 5350 3150 5350
 Wire Wire Line
-	3050 3750 3150 3750
-Wire Wire Line
-	3050 3850 3150 3850
-Wire Wire Line
-	3050 3550 3150 3550
-Wire Wire Line
-	3050 3650 3150 3650
-Wire Wire Line
-	3050 3350 3150 3350
-Wire Wire Line
 	3050 3450 3150 3450
 Wire Wire Line
 	3050 3150 3150 3150
 Wire Wire Line
 	3050 3250 3150 3250
-Wire Wire Line
-	3050 4550 3150 4550
-Wire Wire Line
-	3050 4650 3150 4650
-Wire Wire Line
-	3050 4350 3150 4350
-Wire Wire Line
-	3050 4450 3150 4450
-Wire Wire Line
-	3050 4150 3150 4150
-Wire Wire Line
-	3050 4250 3150 4250
-Wire Wire Line
-	3050 3950 3150 3950
-Wire Wire Line
-	3050 4050 3150 4050
 Wire Wire Line
 	3050 2950 3150 2950
 Wire Wire Line
@@ -155,66 +129,92 @@ Wire Wire Line
 Wire Wire Line
 	3050 2550 3150 2550
 Wire Wire Line
+	3050 2250 3150 2250
+Wire Wire Line
+	3050 4950 3150 4950
+Wire Wire Line
+	3050 5050 3150 5050
+Wire Wire Line
+	3050 4750 3150 4750
+Wire Wire Line
+	3050 4850 3150 4850
+Wire Wire Line
+	3050 4550 3150 4550
+Wire Wire Line
+	3050 4650 3150 4650
+Wire Wire Line
+	3050 4350 3150 4350
+Wire Wire Line
+	3050 3350 3150 3350
+Wire Wire Line
+	3050 3650 3150 3650
+Wire Wire Line
+	3050 3550 3150 3550
+Wire Wire Line
+	3050 3850 3150 3850
+Wire Wire Line
+	3050 3750 3150 3750
+Wire Wire Line
 	3050 2650 3150 2650
 Wire Wire Line
 	3050 2350 3150 2350
 Wire Wire Line
-	3050 4850 3150 4850
+	3050 4450 3150 4450
 Wire Wire Line
-	3050 4750 3150 4750
+	3050 4150 3150 4150
 Wire Wire Line
-	3050 5050 3150 5050
-Text GLabel 3150 5050 2    60   BiDi
+	3050 4250 3150 4250
+Text GLabel 3150 4250 2    60   BiDi
 SDRAM_CKE
-Text GLabel 3150 4750 2    60   BiDi
+Text GLabel 3150 4150 2    60   BiDi
 SDRAM_CLK
-Text GLabel 3150 4850 2    60   BiDi
+Text GLabel 3150 4450 2    60   BiDi
 SDRAM_DQMH
 Text GLabel 3150 2350 2    60   BiDi
 SDRAM_BA1
 Text GLabel 3150 2650 2    60   BiDi
 SDRAM_BA0
-Text GLabel 3150 2550 2    60   BiDi
-SDRAM_CS
-Text GLabel 3150 2850 2    60   BiDi
-SDRAM_RAS
-Text GLabel 3150 2750 2    60   BiDi
-SDRAM_CAS
-Text GLabel 3150 3050 2    60   BiDi
-SDRAM_WE
-Text GLabel 3150 2950 2    60   BiDi
-SDRAM_DQML
-Text GLabel 3150 4550 2    60   BiDi
-SDRAM_D15
-Text GLabel 3150 4650 2    60   BiDi
-SDRAM_D14
-Text GLabel 3150 4350 2    60   BiDi
-SDRAM_D13
-Text GLabel 3150 4450 2    60   BiDi
-SDRAM_D12
-Text GLabel 3150 4150 2    60   BiDi
-SDRAM_D11
-Text GLabel 3150 4250 2    60   BiDi
-SDRAM_D10
-Text GLabel 3150 3950 2    60   BiDi
-SDRAM_D9
-Text GLabel 3150 4050 2    60   BiDi
-SDRAM_D8
 Text GLabel 3150 3750 2    60   BiDi
-SDRAM_D7
+SDRAM_CS
 Text GLabel 3150 3850 2    60   BiDi
-SDRAM_D6
+SDRAM_RAS
 Text GLabel 3150 3550 2    60   BiDi
-SDRAM_D5
+SDRAM_CAS
 Text GLabel 3150 3650 2    60   BiDi
-SDRAM_D4
+SDRAM_WE
 Text GLabel 3150 3350 2    60   BiDi
-SDRAM_D3
+SDRAM_DQML
+Text GLabel 3150 2250 2    60   BiDi
+SDRAM_D15
+Text GLabel 3150 4950 2    60   BiDi
+SDRAM_D14
+Text GLabel 3150 5050 2    60   BiDi
+SDRAM_D13
+Text GLabel 3150 4750 2    60   BiDi
+SDRAM_D12
+Text GLabel 3150 4850 2    60   BiDi
+SDRAM_D11
+Text GLabel 3150 4550 2    60   BiDi
+SDRAM_D10
+Text GLabel 3150 4650 2    60   BiDi
+SDRAM_D9
+Text GLabel 3150 4350 2    60   BiDi
+SDRAM_D8
 Text GLabel 3150 3450 2    60   BiDi
-SDRAM_D2
+SDRAM_D7
 Text GLabel 3150 3150 2    60   BiDi
-SDRAM_D1
+SDRAM_D6
 Text GLabel 3150 3250 2    60   BiDi
+SDRAM_D5
+Text GLabel 3150 2950 2    60   BiDi
+SDRAM_D4
+Text GLabel 3150 3050 2    60   BiDi
+SDRAM_D3
+Text GLabel 3150 2750 2    60   BiDi
+SDRAM_D2
+Text GLabel 3150 2850 2    60   BiDi
+SDRAM_D1
+Text GLabel 3150 2550 2    60   BiDi
 SDRAM_D0
 Connection ~ 3150 2050
 Wire Wire Line
