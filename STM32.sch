@@ -13,6 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 8850 5950 0    60   ~
+test
 NoConn ~ 7550 1550
 Kmarq B 3300 6600 "Warning Pin power_in not driven (Net 115)" F=1
 Kmarq B 4650 1550 "Warning Pin power_in not driven (Net 7)" F=1
