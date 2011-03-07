@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 9 9
 Title ""
-Date "21 nov 2010"
+Date "3 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,30 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 8850 5950 0    60   ~
-test
-NoConn ~ 7550 1550
-Kmarq B 3300 6600 "Warning Pin power_in not driven (Net 115)" F=1
-Kmarq B 4650 1550 "Warning Pin power_in not driven (Net 7)" F=1
-Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 5)" F=1
-$Comp
-L +3.3V #PWR094
-U 1 1 4CD86298
-P 3300 6600
-F 0 "#PWR094" H 3300 6560 30  0001 C C
-F 1 "+3.3V" H 3300 6710 30  0000 C C
-	1    3300 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR095
-U 1 1 4CD8627F
-P 1050 6100
-F 0 "#PWR095" H 1050 6060 30  0001 C C
-F 1 "+3.3V" H 1050 6210 30  0000 C C
-	1    1050 6100
-	1    0    0    -1  
-$EndComp
+Kmarq B 3300 6600 "Warning Pin power_in not driven (Net 117)" F=1
+Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 114)" F=1
+Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 6)" F=1
+Kmarq B 3600 1250 "Warning Pin power_in not driven (Net 1)" F=1
+Connection ~ 3600 1350
+Connection ~ 4100 1350
+Wire Wire Line
+	4100 1250 4100 1550
+Wire Wire Line
+	4100 1550 3600 1550
+Wire Wire Line
+	3600 1550 3600 1250
+Wire Wire Line
+	3600 1350 3700 1350
+Wire Wire Line
+	6250 1450 5250 1450
+Wire Wire Line
+	4650 1350 4650 1550
 Wire Wire Line
 	1050 6100 1050 6200
 Wire Wire Line
@@ -62,15 +56,9 @@ Connection ~ 9850 2550
 Wire Wire Line
 	9850 2450 9850 2550
 Wire Wire Line
-	4650 1450 4750 1450
-Wire Wire Line
 	2850 3750 1950 3750
-Connection ~ 5150 1450
 Wire Wire Line
 	5750 1550 5750 1350
-Connection ~ 5250 1450
-Wire Wire Line
-	4700 1450 4700 1350
 Connection ~ 8400 1400
 Wire Wire Line
 	8700 1400 7950 1400
@@ -184,7 +172,6 @@ Wire Wire Line
 Connection ~ 3800 6350
 Wire Wire Line
 	4550 6350 3700 6350
-Connection ~ 4700 1450
 Wire Wire Line
 	6950 1550 6950 1350
 Wire Wire Line
@@ -193,9 +180,6 @@ Wire Wire Line
 	4950 1450 4850 1450
 Wire Wire Line
 	4850 1450 4850 1550
-Wire Wire Line
-	5050 1550 5050 1450
-Connection ~ 6450 1450
 Connection ~ 5450 1450
 Wire Wire Line
 	5450 1450 5450 1550
@@ -209,7 +193,7 @@ Connection ~ 6050 1450
 Wire Wire Line
 	6050 1450 6050 1550
 Wire Wire Line
-	6250 1550 6250 1450
+	6250 1450 6250 1550
 Connection ~ 6650 1450
 Wire Wire Line
 	6650 1550 6650 1450
@@ -264,11 +248,6 @@ Connection ~ 5550 1450
 Wire Wire Line
 	5350 1450 5350 1550
 Connection ~ 5350 1450
-Connection ~ 6250 1450
-Wire Wire Line
-	4650 1450 4650 1550
-Wire Wire Line
-	4750 1450 4750 1550
 Wire Wire Line
 	6450 1450 7450 1450
 Connection ~ 4900 1450
@@ -387,8 +366,6 @@ Wire Wire Line
 	2750 3050 2850 3050
 Wire Wire Line
 	5250 1450 5250 1550
-Wire Wire Line
-	6250 1450 5050 1450
 Connection ~ 5750 1450
 Wire Wire Line
 	1950 3750 1950 3850
@@ -416,11 +393,63 @@ Wire Wire Line
 Wire Wire Line
 	1050 6800 1750 6800
 Connection ~ 1150 6800
+Wire Wire Line
+	4750 1550 4750 1450
+Wire Wire Line
+	5050 1550 5050 1450
+Wire Wire Line
+	4100 1350 4000 1350
+Text GLabel 4100 1250 3    60   BiDi
+VREF
 $Comp
-L +3.3V #PWR096
+L JP_SW JP1
+U 1 1 4D6FF278
+P 3850 1350
+F 0 "JP1" H 3850 1450 50  0000 C C
+F 1 "JP_SW" H 3850 1250 50  0000 C C
+F 2 "JP_SW" H 3850 1500 50  0001 C C
+	1    3850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAA #PWR5
+U 1 1 4D6FF25E
+P 3600 1250
+F 0 "#PWR5" H 3600 1310 30  0001 C C
+F 1 "VAA" H 3600 1360 30  0000 C C
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 1450 3    60   BiDi
+VBAT
+Text GLabel 4750 1450 3    60   BiDi
+VREF
+Text Label 8850 5950 0    60   ~
+test
+NoConn ~ 7550 1550
+$Comp
+L +3.3V #PWR098
+U 1 1 4CD86298
+P 3300 6600
+F 0 "#PWR098" H 3300 6560 30  0001 C C
+F 1 "+3.3V" H 3300 6710 30  0000 C C
+	1    3300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR099
+U 1 1 4CD8627F
+P 1050 6100
+F 0 "#PWR099" H 1050 6060 30  0001 C C
+F 1 "+3.3V" H 1050 6210 30  0000 C C
+	1    1050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0100
 U 1 1 4CD86271
 P 5750 1350
-F 0 "#PWR096" H 5750 1310 30  0001 C C
+F 0 "#PWR0100" H 5750 1310 30  0001 C C
 F 1 "+3.3V" H 5750 1460 30  0000 C C
 	1    5750 1350
 	1    0    0    -1  
@@ -434,10 +463,10 @@ FPGA_TDO
 Text GLabel 2750 6050 1    50   BiDi
 GPIO_TDI
 $Comp
-L GND #PWR097
+L GND #PWR0101
 U 1 1 4BBE4414
 P 10350 1950
-F 0 "#PWR097" H 10350 1950 30  0001 C C
+F 0 "#PWR0101" H 10350 1950 30  0001 C C
 F 1 "GND" H 10350 1880 30  0001 C C
 	1    10350 1950
 	1    0    0    -1  
@@ -479,7 +508,7 @@ F 1 "BUT" H 1050 7250 60  0001 C C
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7650 1450 3    60   BiDi
-JTAG-TRST
+RST
 $Comp
 L STM32F103ZE U3
 U 1 1 4BB13396
@@ -490,10 +519,10 @@ F 1 "STM32F103ZE" H 5750 3600 60  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR098
+L GND #PWR0102
 U 1 1 4B915FBB
 P 1950 3850
-F 0 "#PWR098" H 1950 3850 30  0001 C C
+F 0 "#PWR0102" H 1950 3850 30  0001 C C
 F 1 "GND" H 1950 3780 30  0001 C C
 	1    1950 3850
 	1    0    0    -1  
@@ -711,7 +740,7 @@ FSMC_A14
 Text GLabel 5550 6350 1    60   Output
 FSMC_A15
 Text GLabel 1750 6800 2    60   BiDi
-JTAG-TRST
+RST
 Text GLabel 5050 6350 1    60   BiDi
 FSMC_NE3
 Text GLabel 8900 3250 2    60   BiDi
@@ -721,28 +750,28 @@ FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
 FSMC_D2
 $Comp
-L GND #PWR099
+L GND #PWR0103
 U 1 1 4B8B0CB9
 P 4900 1350
-F 0 "#PWR099" H 4900 1350 30  0001 C C
+F 0 "#PWR0103" H 4900 1350 30  0001 C C
 F 1 "GND" H 4900 1280 30  0001 C C
 	1    4900 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L VAA #PWR5
+L VAA #PWR6
 U 1 1 4B8B0CB6
-P 4700 1350
-F 0 "#PWR5" H 4700 1410 30  0001 C C
-F 1 "VAA" H 4700 1460 30  0000 C C
-	1    4700 1350
+P 4650 1350
+F 0 "#PWR6" H 4650 1410 30  0001 C C
+F 1 "VAA" H 4650 1460 30  0000 C C
+	1    4650 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0100
+L GND #PWR0104
 U 1 1 4B8B0C8C
 P 6950 1350
-F 0 "#PWR0100" H 6950 1350 30  0001 C C
+F 0 "#PWR0104" H 6950 1350 30  0001 C C
 F 1 "GND" H 6950 1280 30  0001 C C
 	1    6950 1350
 	1    0    0    1   
@@ -761,10 +790,10 @@ F 1 "8Mhz" H 8500 1200 50  0000 L C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0101
+L GND #PWR0105
 U 1 1 4B8383A4
 P 9350 1500
-F 0 "#PWR0101" H 9350 1500 30  0001 C C
+F 0 "#PWR0105" H 9350 1500 30  0001 C C
 F 1 "GND" H 9350 1430 30  0001 C C
 	1    9350 1500
 	1    0    0    -1  
@@ -788,10 +817,10 @@ F 1 "18pF" H 8950 950 50  0000 L C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0102
+L GND #PWR0106
 U 1 1 4B83757E
 P 8250 800
-F 0 "#PWR0102" H 8250 800 30  0001 C C
+F 0 "#PWR0106" H 8250 800 30  0001 C C
 F 1 "GND" H 8250 730 30  0001 C C
 	1    8250 800 
 	1    0    0    -1  
@@ -806,10 +835,10 @@ F 1 "10k" V 8000 700 50  0000 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0103
+L GND #PWR0107
 U 1 1 4B83757C
 P 1050 7300
-F 0 "#PWR0103" H 1050 7300 30  0001 C C
+F 0 "#PWR0107" H 1050 7300 30  0001 C C
 F 1 "GND" H 1050 7230 30  0001 C C
 	1    1050 7300
 	1    0    0    -1  

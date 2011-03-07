@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 28/1/2011-01:17:00
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 3/3/2011-23:45:31
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
 Reference = BQ1;
 ValeurCmp = BQ24010DRC;
-IdModule  = PSON10-V3;
+IdModule  = BQ;
 EndCmp
 
 BeginCmp
@@ -24,6 +24,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAB1D66/4CBC6D88;
 Reference = BUT3;
+ValeurCmp = BUT;
+IdModule  = PSHBTN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CBEE458/4D701EC7;
+Reference = BUT4;
 ValeurCmp = BUT;
 IdModule  = PSHBTN;
 EndCmp
@@ -771,10 +778,31 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CAA12A2/4D7018E4;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = SOD323-W;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CBEE458/4D701EC5;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CAA12A2/4CAA6DE2;
 Reference = IC1;
 ValeurCmp = TPS75003;
 IdModule  = VQFN20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA1009/4D6FF278;
+Reference = JP1;
+ValeurCmp = JP_SW;
+IdModule  = JP_SW;
 EndCmp
 
 BeginCmp
@@ -876,10 +904,10 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA132F/4B9142A9;
+TimeStamp = /4CAA132F/4D6FF6AE;
 Reference = P10;
-ValeurCmp = CONN_4X2;
-IdModule  = pin_array_4x2;
+ValeurCmp = CONN_5X2;
+IdModule  = FTSH-105;
 EndCmp
 
 BeginCmp
@@ -1151,7 +1179,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAB1D66/4CBC6565;
 Reference = R33;
-ValeurCmp = 4.7k;
+ValeurCmp = 330;
 IdModule  = SM0402;
 EndCmp
 
@@ -1208,6 +1236,13 @@ BeginCmp
 TimeStamp = /4CAA922C/4CD819E4;
 Reference = R41;
 ValeurCmp = 1.5k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CBEE458/4D701EC4;
+Reference = R42;
+ValeurCmp = 1k;
 IdModule  = SM0402;
 EndCmp
 
