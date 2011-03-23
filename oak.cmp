@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 17 Mar 2011 10:54:46 AM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Wed 23 Mar 2011 10:57:06 AM PDT
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -935,14 +935,14 @@ BeginCmp
 TimeStamp = /4CAA12A2/4CAA88C4;
 Reference = Q1;
 ValeurCmp = MOSFET_P;
-IdModule  = SOT23-3;
+IdModule  = MOSFET_P;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA8DDA;
 Reference = Q2;
 ValeurCmp = MOSFET_P;
-IdModule  = SOT23-3;
+IdModule  = MOSFET_P;
 EndCmp
 
 BeginCmp
