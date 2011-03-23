@@ -1,4 +1,4 @@
-ERC control (3/3/2011-23:11:08)
+ERC control (Wed 23 Mar 2011 12:00:32 PM PDT)
 
 ***** Sheet / (Root) 
 
@@ -15,15 +15,13 @@ ERC control (3/3/2011-23:11:08)
 ***** Sheet /Connectors/
 
 ***** Sheet /Power Supplies/
-ERC: Warning Pin BiDi Unconnected (X= 5.550 inches, Y= 6.150 inches
-ERC: Warning Pin power_in not driven (Net 141) (X= 8.900 inches, Y= 2.300 inches
-ERC: Warning Pin power_in not driven (Net 140) (X= 9.750 inches, Y= 3.100 inches
-ERC: Warning Pin BiDi Unconnected (X= 5.650 inches, Y= 1.200 inches
+ERC: Warning Pin power_in not driven (Net 140) (X= 8.900 inches, Y= 2.300 inches
+ERC: Warning Pin power_in not driven (Net 121) (X= 9.750 inches, Y= 3.100 inches
 
 ***** Sheet /STM32/
-ERC: Warning Pin power_in not driven (Net 117) (X= 3.300 inches, Y= 6.600 inches
-ERC: Warning Pin power_in not driven (Net 114) (X= 5.050 inches, Y= 1.550 inches
-ERC: Warning Pin power_in not driven (Net 6) (X= 10.350 inches, Y= 1.950 inches
+ERC: Warning Pin power_in not driven (Net 116) (X= 5.050 inches, Y= 1.550 inches
+ERC: Warning Pin power_in not driven (Net 7) (X= 10.350 inches, Y= 1.950 inches
+ERC: Warning Pin power_in not driven (Net 2) (X= 4.750 inches, Y= 1.550 inches
 ERC: Warning Pin power_in not driven (Net 1) (X= 3.600 inches, Y= 1.250 inches
 
- >> Errors ERC: 8
+ >> Errors ERC: 6

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Mar 2011 11:37:38 AM PDT
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 12:00:24 PM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -13,22 +13,29 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Kmarq B 3300 6600 "Warning Pin power_in not driven (Net 117)" F=1
-Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 114)" F=1
-Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 6)" F=1
+Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 116)" F=1
+Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 7)" F=1
+Kmarq B 4750 1550 "Warning Pin power_in not driven (Net 2)" F=1
 Kmarq B 3600 1250 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L +3.3V #PWR094
+U 1 1 4D8A3EEA
+P 3600 1250
+F 0 "#PWR094" H 3600 1210 30  0001 C CNN
+F 1 "+3.3V" H 3600 1360 30  0000 C CNN
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
 Connection ~ 3600 1350
 Connection ~ 4100 1350
 Wire Wire Line
-	4100 1250 4100 1550
+	4100 1550 4100 1250
 Wire Wire Line
 	3600 1550 3600 1250
 Wire Wire Line
 	3600 1350 3700 1350
 Wire Wire Line
 	6250 1450 5250 1450
-Wire Wire Line
-	4650 1350 4650 1550
 Wire Wire Line
 	1050 6100 1050 6200
 Wire Wire Line
@@ -397,6 +404,17 @@ Wire Wire Line
 	5050 1550 5050 1450
 Wire Wire Line
 	4100 1350 4000 1350
+Wire Wire Line
+	4650 1450 4650 1550
+$Comp
+L +3.3V #PWR095
+U 1 1 4D8A3ECB
+P 4650 1450
+F 0 "#PWR095" H 4650 1410 30  0001 C CNN
+F 1 "+3.3V" H 4650 1560 30  0000 C CNN
+	1    4650 1450
+	1    0    0    -1  
+$EndComp
 Text GLabel 4100 1250 3    60   BiDi ~ 0
 VREF
 $Comp
@@ -409,43 +427,34 @@ F 2 "JP_SW" H 3850 1500 50  0001 C CNN
 	1    3850 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L VAA #PWR5
-U 1 1 4D6FF25E
-P 3600 1250
-F 0 "#PWR5" H 3600 1310 30  0001 C CNN
-F 1 "VAA" H 3600 1360 30  0000 C CNN
-	1    3600 1250
-	1    0    0    -1  
-$EndComp
 Text GLabel 5050 1450 3    60   BiDi ~ 0
 VBAT
 Text GLabel 4750 1450 3    60   BiDi ~ 0
 VREF
 NoConn ~ 7550 1550
 $Comp
-L +3.3V #PWR097
+L +3.3V #PWR096
 U 1 1 4CD86298
 P 3300 6600
-F 0 "#PWR097" H 3300 6560 30  0001 C CNN
+F 0 "#PWR096" H 3300 6560 30  0001 C CNN
 F 1 "+3.3V" H 3300 6710 30  0000 C CNN
 	1    3300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR098
+L +3.3V #PWR097
 U 1 1 4CD8627F
 P 1050 6100
-F 0 "#PWR098" H 1050 6060 30  0001 C CNN
+F 0 "#PWR097" H 1050 6060 30  0001 C CNN
 F 1 "+3.3V" H 1050 6210 30  0000 C CNN
 	1    1050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR099
+L +3.3V #PWR098
 U 1 1 4CD86271
 P 5750 1350
-F 0 "#PWR099" H 5750 1310 30  0001 C CNN
+F 0 "#PWR098" H 5750 1310 30  0001 C CNN
 F 1 "+3.3V" H 5750 1460 30  0000 C CNN
 	1    5750 1350
 	1    0    0    -1  
@@ -459,10 +468,10 @@ FPGA_TDO
 Text GLabel 2750 6050 1    50   BiDi ~ 0
 GPIO_TDI
 $Comp
-L GND #PWR0100
+L GND #PWR099
 U 1 1 4BBE4414
 P 10350 1950
-F 0 "#PWR0100" H 10350 1950 30  0001 C CNN
+F 0 "#PWR099" H 10350 1950 30  0001 C CNN
 F 1 "GND" H 10350 1880 30  0001 C CNN
 	1    10350 1950
 	1    0    0    -1  
@@ -515,10 +524,10 @@ F 1 "STM32F103ZE" H 5750 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0101
+L GND #PWR0100
 U 1 1 4B915FBB
 P 1950 3850
-F 0 "#PWR0101" H 1950 3850 30  0001 C CNN
+F 0 "#PWR0100" H 1950 3850 30  0001 C CNN
 F 1 "GND" H 1950 3780 30  0001 C CNN
 	1    1950 3850
 	1    0    0    -1  
@@ -746,28 +755,19 @@ FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi ~ 0
 FSMC_D2
 $Comp
-L GND #PWR0102
+L GND #PWR0101
 U 1 1 4B8B0CB9
 P 4900 1350
-F 0 "#PWR0102" H 4900 1350 30  0001 C CNN
+F 0 "#PWR0101" H 4900 1350 30  0001 C CNN
 F 1 "GND" H 4900 1280 30  0001 C CNN
 	1    4900 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L VAA #PWR6
-U 1 1 4B8B0CB6
-P 4650 1350
-F 0 "#PWR6" H 4650 1410 30  0001 C CNN
-F 1 "VAA" H 4650 1460 30  0000 C CNN
-	1    4650 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0103
+L GND #PWR0102
 U 1 1 4B8B0C8C
 P 6950 1350
-F 0 "#PWR0103" H 6950 1350 30  0001 C CNN
+F 0 "#PWR0102" H 6950 1350 30  0001 C CNN
 F 1 "GND" H 6950 1280 30  0001 C CNN
 	1    6950 1350
 	1    0    0    1   
@@ -786,10 +786,10 @@ F 1 "8Mhz" H 8500 1200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0104
+L GND #PWR0103
 U 1 1 4B8383A4
 P 9350 1500
-F 0 "#PWR0104" H 9350 1500 30  0001 C CNN
+F 0 "#PWR0103" H 9350 1500 30  0001 C CNN
 F 1 "GND" H 9350 1430 30  0001 C CNN
 	1    9350 1500
 	1    0    0    -1  
@@ -813,10 +813,10 @@ F 1 "18pF" H 8950 950 50  0000 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0105
+L GND #PWR0104
 U 1 1 4B83757E
 P 8250 800
-F 0 "#PWR0105" H 8250 800 30  0001 C CNN
+F 0 "#PWR0104" H 8250 800 30  0001 C CNN
 F 1 "GND" H 8250 730 30  0001 C CNN
 	1    8250 800 
 	1    0    0    -1  
@@ -831,10 +831,10 @@ F 1 "10k" V 8000 700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0106
+L GND #PWR0105
 U 1 1 4B83757C
 P 1050 7300
-F 0 "#PWR0106" H 1050 7300 30  0001 C CNN
+F 0 "#PWR0105" H 1050 7300 30  0001 C CNN
 F 1 "GND" H 1050 7230 30  0001 C CNN
 	1    1050 7300
 	1    0    0    -1  
