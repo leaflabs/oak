@@ -1,4 +1,4 @@
-update=Tue 08 Mar 2011 12:02:22 PM PST
+update=Sat 21 May 2011 01:18:22 PM PDT
 last_client=pcbnew
 [general]
 version=1
@@ -75,9 +75,9 @@ LibName27=contrib
 LibName28=valves
 [pcbnew]
 version=1
-PadDrlX=400
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=200
+PadDimV=236
 ViaDiam=270
 ViaDril=150
 ViaAltD=250
@@ -110,13 +110,4 @@ MSegLar=50
 WpenSer=10
 [pcbnew/libraries]
 LibDir=
-LibName1=xilinx_devices
-LibName2=/home/jessb/Projects/leafhw/hardware-lib/leaf
-LibName3=supports
-LibName4=connect
-LibName5=discret
-LibName6=pin_array
-LibName7=divers
-LibName8=libcms
-LibName9=display
-LibName10=valves
+LibName1=/home/jessb/Projects/leafhw/hardware-lib/leaf
