@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 15 Apr 2011 12:42:02 PM PDT
+EESchema Schematic File Version 2  date Fri 27 May 2011 05:32:39 PM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -83,7 +83,7 @@ Wire Wire Line
 Text GLabel 7050 2350 2    60   BiDi ~ 0
 28
 Text GLabel 7050 2250 2    60   BiDi ~ 0
-27
+47
 Text GLabel 3150 2450 2    60   BiDi ~ 0
 SDRAM_A10
 Wire Wire Line
