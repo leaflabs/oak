@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 27 May 2011 05:32:50 PM PDT
+# EESchema Netlist Version 1.1 created  Fri 27 May 2011 05:41:30 PM PDT
 (
  ( /4CBEE458/4D701EC7 $noname  BUT4 BUT {Lib=BUT}
   (    1 +3.3V )
@@ -236,7 +236,7 @@
   ( P113 N-000046 )
   ( P108 N-000213 )
   ( P109 N-000039 )
-  ( P106 N-000078 )
+  ( P106 N-000096 )
   ( P107 N-000026 )
   ( P143 +3.3V )
   ( P125 +3.3V )
@@ -2394,7 +2394,6 @@ Net 78 "" ""
  U3 117
  P8 30
  P8 30
- U4 P106
 Net 79 "" ""
  U3 119
  U4 P151
@@ -2451,6 +2450,7 @@ Net 95 "" ""
 Net 96 "" ""
  U3 47
  P8 11
+ U4 P106
 Net 97 "" ""
  U3 136
  P8 20
