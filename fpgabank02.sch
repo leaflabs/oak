@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jul 2011 02:15:29 AM PDT
+EESchema Schematic File Version 2  date Tue 05 Jul 2011 04:29:30 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -296,7 +296,7 @@ F 1 "1k" V 5150 4350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 5050 4700 0    60   BiDi ~ 0
-FPGAIO_38
+64
 $Comp
 L +3.3V #PWR03
 U 1 1 4CD855EF
@@ -316,69 +316,69 @@ F 1 "+3.3V" H 4100 2010 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7350 2300 2    60   BiDi ~ 0
-FPGAIO_23
+70
 Text GLabel 7350 2500 2    60   BiDi ~ 0
-FPGAIO_24
+59
 Text GLabel 7350 2800 2    60   BiDi ~ 0
-FPGAIO_25
+79
 Text GLabel 7350 5300 2    60   BiDi ~ 0
-FPGAIO_46
+56
 Text GLabel 7350 5100 2    60   BiDi ~ 0
-FPGAIO_45
+58
 Text GLabel 7350 5000 2    60   BiDi ~ 0
-FPGAIO_44
+57
 Text GLabel 7350 4900 2    60   BiDi ~ 0
-FPGAIO_43
+61
 Text GLabel 7350 4800 2    60   BiDi ~ 0
-FPGAIO_42
+60
 Text GLabel 7350 4700 2    60   BiDi ~ 0
-FPGAIO_41
+63
 Text GLabel 7350 4600 2    60   BiDi ~ 0
-FPGAIO_40
+62
 Text GLabel 7350 4500 2    60   BiDi ~ 0
-FPGAIO_39
+65
 Text GLabel 7350 4400 2    60   BiDi ~ 0
-FPGAIO_38
+64
 Text GLabel 7350 4100 2    60   BiDi ~ 0
-FPGAIO_37
+67
 Text GLabel 7350 4000 2    60   BiDi ~ 0
-FPGAIO_36
+66
 Text GLabel 7350 3900 2    60   BiDi ~ 0
-FPGAIO_35
+69
 Text GLabel 7350 3800 2    60   BiDi ~ 0
-FPGAIO_34
+68
 Text GLabel 7350 3700 2    60   BiDi ~ 0
-FPGAIO_33
+72
 Text GLabel 7350 3600 2    60   BiDi ~ 0
-FPGAIO_32
+71
 Text GLabel 7350 3500 2    60   BiDi ~ 0
-FPGAIO_31
+74
 Text GLabel 7350 3400 2    60   BiDi ~ 0
-FPGAIO_30
+73
 Text GLabel 7350 3300 2    60   BiDi ~ 0
-FPGAIO_29
+76
 Text GLabel 7350 3200 2    60   BiDi ~ 0
-FPGAIO_28
+75
 Text GLabel 7350 3100 2    60   BiDi ~ 0
-FPGAIO_27
+78
 Text GLabel 7350 3000 2    60   BiDi ~ 0
-FPGAIO_26
+77
 Text GLabel 7350 6200 2    60   BiDi ~ 0
-FPGAIP_15
+82
 Text GLabel 7350 6000 2    60   BiDi ~ 0
-FPGAIP_14
+84
 Text GLabel 7350 5900 2    60   BiDi ~ 0
-FPGAIP_13
+83
 Text GLabel 7350 5800 2    60   BiDi ~ 0
-FPGAIP_12
+86
 Text GLabel 7350 5700 2    60   BiDi ~ 0
-FPGAIP_11
+85
 Text GLabel 7350 5600 2    60   BiDi ~ 0
-FPGAIP_10
+80
 Text GLabel 7350 5500 2    60   BiDi ~ 0
-FPGAIP_9
+81
 Text GLabel 7350 5400 2    60   BiDi ~ 0
-FPGAIP_8
+87
 Text GLabel 3350 6000 2    60   BiDi ~ 0
 FPGAIP_7
 Text GLabel 3350 5900 2    60   BiDi ~ 0

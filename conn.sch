@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jul 2011 02:15:29 AM PDT
+EESchema Schematic File Version 2  date Tue 05 Jul 2011 04:29:30 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -56,61 +56,117 @@ Wire Wire Line
 Wire Wire Line
 	9950 1350 10050 1350
 Wire Wire Line
-	4250 4850 4150 4850
+	2250 4850 2150 4850
 Wire Wire Line
-	4250 3750 4150 3750
+	2250 3750 2150 3750
 Wire Wire Line
-	4250 5750 4150 5750
+	2250 5750 2150 5750
 Wire Wire Line
-	4250 3450 4150 3450
+	2250 3450 2150 3450
 Wire Wire Line
-	4250 3850 4150 3850
+	2250 3850 2150 3850
 Wire Wire Line
-	4250 3950 4150 3950
+	2250 3950 2150 3950
 Wire Wire Line
-	4250 3550 4150 3550
+	2250 3550 2150 3550
 Wire Wire Line
-	4250 3650 4150 3650
+	2250 3650 2150 3650
 Wire Wire Line
-	4250 4250 4150 4250
+	2250 4250 2150 4250
 Wire Wire Line
-	4250 4350 4150 4350
+	2250 4350 2150 4350
 Wire Wire Line
-	4250 4050 4150 4050
+	2250 4050 2150 4050
 Wire Wire Line
-	4250 4150 4150 4150
+	2250 4150 2150 4150
 Wire Wire Line
-	4250 4650 4150 4650
+	2250 4650 2150 4650
 Wire Wire Line
-	4250 4750 4150 4750
+	2250 4750 2150 4750
 Wire Wire Line
-	4250 4450 4150 4450
+	2250 4450 2150 4450
 Wire Wire Line
-	4250 4550 4150 4550
+	2250 4550 2150 4550
 Wire Wire Line
-	4250 5550 4150 5550
+	2250 5550 2150 5550
 Wire Wire Line
-	4250 5650 4150 5650
+	2250 5650 2150 5650
 Wire Wire Line
-	4250 5350 4150 5350
+	2250 5350 2150 5350
 Wire Wire Line
-	4250 5450 4150 5450
+	2250 5450 2150 5450
 Wire Wire Line
-	4250 5150 4150 5150
+	2250 5150 2150 5150
 Wire Wire Line
-	4250 5250 4150 5250
+	2250 5250 2150 5250
+Wire Wire Line
+	2250 4950 2150 4950
+Wire Wire Line
+	2250 5050 2150 5050
+Wire Wire Line
+	2250 6050 2150 6050
+Wire Wire Line
+	2250 6250 2150 6250
+Wire Wire Line
+	2250 6550 2150 6550
+Wire Wire Line
+	2250 5950 2150 5950
+Wire Wire Line
+	2250 5850 2150 5850
+Wire Wire Line
+	2250 6350 2150 6350
+Wire Wire Line
+	2250 6450 2150 6450
+Wire Wire Line
+	2250 6150 2150 6150
 Wire Wire Line
 	4250 4950 4150 4950
 Wire Wire Line
+	4250 4450 4150 4450
+Wire Wire Line
+	4250 3550 4150 3550
+Wire Wire Line
+	4250 3450 4150 3450
+Wire Wire Line
+	4250 3750 4150 3750
+Wire Wire Line
+	4250 3650 4150 3650
+Wire Wire Line
+	4250 3950 4150 3950
+Wire Wire Line
+	4250 3850 4150 3850
+Wire Wire Line
+	4250 4150 4150 4150
+Wire Wire Line
+	4250 4050 4150 4050
+Wire Wire Line
+	4250 4350 4150 4350
+Wire Wire Line
+	4250 4250 4150 4250
+Wire Wire Line
+	4250 4650 4150 4650
+Wire Wire Line
+	4250 4550 4150 4550
+Wire Wire Line
+	4250 4850 4150 4850
+Wire Wire Line
+	4250 4750 4150 4750
+Wire Wire Line
+	4250 5150 4150 5150
+Wire Wire Line
 	4250 5050 4150 5050
 Wire Wire Line
-	4250 6050 4150 6050
+	4250 5350 4150 5350
 Wire Wire Line
-	4250 6250 4150 6250
+	4250 5250 4150 5250
 Wire Wire Line
-	4250 6550 4150 6550
+	4250 5550 4150 5550
 Wire Wire Line
-	4250 5950 4150 5950
+	4250 5450 4150 5450
+Wire Wire Line
+	4250 5650 4150 5650
+Wire Wire Line
+	4250 5750 4150 5750
 Wire Wire Line
 	4250 5850 4150 5850
 Wire Wire Line
@@ -118,67 +174,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 6450 4150 6450
 Wire Wire Line
+	4250 5950 4150 5950
+Wire Wire Line
+	4250 6250 4150 6250
+Wire Wire Line
 	4250 6150 4150 6150
-Wire Wire Line
-	2550 4950 2450 4950
-Wire Wire Line
-	2550 4450 2450 4450
-Wire Wire Line
-	2550 3550 2450 3550
-Wire Wire Line
-	2550 3450 2450 3450
-Wire Wire Line
-	2550 3750 2450 3750
-Wire Wire Line
-	2550 3650 2450 3650
-Wire Wire Line
-	2550 3950 2450 3950
-Wire Wire Line
-	2550 3850 2450 3850
-Wire Wire Line
-	2550 4150 2450 4150
-Wire Wire Line
-	2550 4050 2450 4050
-Wire Wire Line
-	2550 4350 2450 4350
-Wire Wire Line
-	2550 4250 2450 4250
-Wire Wire Line
-	2550 4650 2450 4650
-Wire Wire Line
-	2550 4550 2450 4550
-Wire Wire Line
-	2550 4850 2450 4850
-Wire Wire Line
-	2550 4750 2450 4750
-Wire Wire Line
-	2550 5150 2450 5150
-Wire Wire Line
-	2550 5050 2450 5050
-Wire Wire Line
-	2550 5350 2450 5350
-Wire Wire Line
-	2550 5250 2450 5250
-Wire Wire Line
-	2550 5550 2450 5550
-Wire Wire Line
-	2550 5450 2450 5450
-Wire Wire Line
-	2550 5650 2450 5650
-Wire Wire Line
-	2550 5750 2450 5750
-Wire Wire Line
-	2550 5850 2450 5850
-Wire Wire Line
-	2550 6350 2450 6350
-Wire Wire Line
-	2550 6450 2450 6450
-Wire Wire Line
-	2550 5950 2450 5950
-Wire Wire Line
-	2550 6250 2450 6250
-Wire Wire Line
-	2550 6150 2450 6150
 Wire Wire Line
 	6600 3850 6700 3850
 Wire Wire Line
@@ -348,9 +348,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 6250 8600 6250
 Wire Wire Line
-	2550 6550 2450 6550
+	4250 6550 4150 6550
 Wire Wire Line
-	2450 6550 2450 6650
+	4150 6550 4150 6650
 Wire Wire Line
 	9150 1850 9050 1850
 Wire Wire Line
@@ -364,7 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 1850 10050 1850
 Wire Wire Line
-	2450 6050 2550 6050
+	4150 6050 4250 6050
 Wire Wire Line
 	2700 1850 2800 1850
 Connection ~ 2700 1850
@@ -442,10 +442,10 @@ FPGAIP_16
 $Comp
 L GND #PWR055
 U 1 1 4CBF07F3
-P 2450 6650
-F 0 "#PWR055" H 2450 6650 30  0001 C CNN
-F 1 "GND" H 2450 6580 30  0001 C CNN
-	1    2450 6650
+P 4150 6650
+F 0 "#PWR055" H 4150 6650 30  0001 C CNN
+F 1 "GND" H 4150 6580 30  0001 C CNN
+	1    4150 6650
 	1    0    0    -1  
 $EndComp
 Text GLabel 10050 1850 2    60   BiDi ~ 0
@@ -466,135 +466,135 @@ Text GLabel 10050 1150 2    60   Input ~ 0
 FSMC_A16
 Text GLabel 10050 1350 2    60   Input ~ 0
 FSMC_A18
-Text GLabel 4150 4850 0    60   BiDi ~ 0
-FPGAIO_23
-Text GLabel 4150 3750 0    60   BiDi ~ 0
-FPGAIO_24
-Text GLabel 4150 5750 0    60   BiDi ~ 0
-FPGAIO_25
-Text GLabel 4150 3450 0    60   BiDi ~ 0
-FPGAIO_46
-Text GLabel 4150 3650 0    60   BiDi ~ 0
-FPGAIO_45
-Text GLabel 4150 3550 0    60   BiDi ~ 0
-FPGAIO_44
-Text GLabel 4150 3950 0    60   BiDi ~ 0
-FPGAIO_43
-Text GLabel 4150 3850 0    60   BiDi ~ 0
-FPGAIO_42
-Text GLabel 4150 4150 0    60   BiDi ~ 0
-FPGAIO_41
-Text GLabel 4150 4050 0    60   BiDi ~ 0
-FPGAIO_40
-Text GLabel 4150 4350 0    60   BiDi ~ 0
-FPGAIO_39
-Text GLabel 4150 4250 0    60   BiDi ~ 0
-FPGAIO_38
-Text GLabel 4150 4550 0    60   BiDi ~ 0
-FPGAIO_37
-Text GLabel 4150 4450 0    60   BiDi ~ 0
-FPGAIO_36
-Text GLabel 4150 4750 0    60   BiDi ~ 0
-FPGAIO_35
-Text GLabel 4150 4650 0    60   BiDi ~ 0
-FPGAIO_34
-Text GLabel 4150 5050 0    60   BiDi ~ 0
-FPGAIO_33
-Text GLabel 4150 4950 0    60   BiDi ~ 0
-FPGAIO_32
-Text GLabel 4150 5250 0    60   BiDi ~ 0
-FPGAIO_31
-Text GLabel 4150 5150 0    60   BiDi ~ 0
-FPGAIO_30
-Text GLabel 4150 5450 0    60   BiDi ~ 0
-FPGAIO_29
-Text GLabel 4150 5350 0    60   BiDi ~ 0
-FPGAIO_28
-Text GLabel 4150 5650 0    60   BiDi ~ 0
-FPGAIO_27
-Text GLabel 4150 5550 0    60   BiDi ~ 0
-FPGAIO_26
-Text GLabel 4150 6050 0    60   BiDi ~ 0
-FPGAIP_15
-Text GLabel 4150 6250 0    60   BiDi ~ 0
-FPGAIP_14
+Text GLabel 2150 4850 0    60   BiDi ~ 0
+70
+Text GLabel 2150 3750 0    60   BiDi ~ 0
+59
+Text GLabel 2150 5750 0    60   BiDi ~ 0
+79
+Text GLabel 2150 3450 0    60   BiDi ~ 0
+56
+Text GLabel 2150 3650 0    60   BiDi ~ 0
+58
+Text GLabel 2150 3550 0    60   BiDi ~ 0
+57
+Text GLabel 2150 3950 0    60   BiDi ~ 0
+61
+Text GLabel 2150 3850 0    60   BiDi ~ 0
+60
+Text GLabel 2150 4150 0    60   BiDi ~ 0
+63
+Text GLabel 2150 4050 0    60   BiDi ~ 0
+62
+Text GLabel 2150 4350 0    60   BiDi ~ 0
+65
+Text GLabel 2150 4250 0    60   BiDi ~ 0
+64
+Text GLabel 2150 4550 0    60   BiDi ~ 0
+67
+Text GLabel 2150 4450 0    60   BiDi ~ 0
+66
+Text GLabel 2150 4750 0    60   BiDi ~ 0
+69
+Text GLabel 2150 4650 0    60   BiDi ~ 0
+68
+Text GLabel 2150 5050 0    60   BiDi ~ 0
+72
+Text GLabel 2150 4950 0    60   BiDi ~ 0
+71
+Text GLabel 2150 5250 0    60   BiDi ~ 0
+74
+Text GLabel 2150 5150 0    60   BiDi ~ 0
+73
+Text GLabel 2150 5450 0    60   BiDi ~ 0
+76
+Text GLabel 2150 5350 0    60   BiDi ~ 0
+75
+Text GLabel 2150 5650 0    60   BiDi ~ 0
+78
+Text GLabel 2150 5550 0    60   BiDi ~ 0
+77
+Text GLabel 2150 6050 0    60   BiDi ~ 0
+82
+Text GLabel 2150 6250 0    60   BiDi ~ 0
+84
+Text GLabel 2150 6150 0    60   BiDi ~ 0
+83
+Text GLabel 2150 6450 0    60   BiDi ~ 0
+86
+Text GLabel 2150 6350 0    60   BiDi ~ 0
+85
+Text GLabel 2150 5850 0    60   BiDi ~ 0
+80
+Text GLabel 2150 5950 0    60   BiDi ~ 0
+81
+Text GLabel 2150 6550 0    60   BiDi ~ 0
+87
 Text GLabel 4150 6150 0    60   BiDi ~ 0
-FPGAIP_13
-Text GLabel 4150 6450 0    60   BiDi ~ 0
-FPGAIP_12
-Text GLabel 4150 6350 0    60   BiDi ~ 0
-FPGAIP_11
-Text GLabel 4150 5850 0    60   BiDi ~ 0
-FPGAIP_10
-Text GLabel 4150 5950 0    60   BiDi ~ 0
-FPGAIP_9
-Text GLabel 4150 6550 0    60   BiDi ~ 0
-FPGAIP_8
-Text GLabel 2450 6150 0    60   BiDi ~ 0
 FPGAIP_7
-Text GLabel 2450 6250 0    60   BiDi ~ 0
+Text GLabel 4150 6250 0    60   BiDi ~ 0
 FPGAIP_6
-Text GLabel 2450 5950 0    60   BiDi ~ 0
+Text GLabel 4150 5950 0    60   BiDi ~ 0
 FPGAIP_5
-Text GLabel 2450 6050 0    60   BiDi ~ 0
+Text GLabel 4150 6050 0    60   BiDi ~ 0
 FPGAIP_4
-Text GLabel 2450 6450 0    60   BiDi ~ 0
+Text GLabel 4150 6450 0    60   BiDi ~ 0
 FPGAIP_3
-Text GLabel 2450 6350 0    60   BiDi ~ 0
+Text GLabel 4150 6350 0    60   BiDi ~ 0
 FPGAIP_2
-Text GLabel 2450 5850 0    60   BiDi ~ 0
+Text GLabel 4150 5850 0    60   BiDi ~ 0
 FPGAIP_1
-Text GLabel 2450 5750 0    60   BiDi ~ 0
+Text GLabel 4150 5750 0    60   BiDi ~ 0
 FPGAIP_0
-Text GLabel 2450 5650 0    60   BiDi ~ 0
+Text GLabel 4150 5650 0    60   BiDi ~ 0
 FPGAIO_22
-Text GLabel 2450 5450 0    60   BiDi ~ 0
+Text GLabel 4150 5450 0    60   BiDi ~ 0
 FPGAIO_21
-Text GLabel 2450 5550 0    60   BiDi ~ 0
+Text GLabel 4150 5550 0    60   BiDi ~ 0
 FPGAIO_20
-Text GLabel 2450 5250 0    60   BiDi ~ 0
+Text GLabel 4150 5250 0    60   BiDi ~ 0
 FPGAIO_19
-Text GLabel 2450 5350 0    60   BiDi ~ 0
+Text GLabel 4150 5350 0    60   BiDi ~ 0
 FPGAIO_18
-Text GLabel 2450 5050 0    60   BiDi ~ 0
+Text GLabel 4150 5050 0    60   BiDi ~ 0
 FPGAIO_17
-Text GLabel 2450 5150 0    60   BiDi ~ 0
+Text GLabel 4150 5150 0    60   BiDi ~ 0
 FPGAIO_16
-Text GLabel 2450 4750 0    60   BiDi ~ 0
+Text GLabel 4150 4750 0    60   BiDi ~ 0
 FPGAIO_15
-Text GLabel 2450 4850 0    60   BiDi ~ 0
+Text GLabel 4150 4850 0    60   BiDi ~ 0
 FPGAIO_14
-Text GLabel 2450 4550 0    60   BiDi ~ 0
+Text GLabel 4150 4550 0    60   BiDi ~ 0
 FPGAIO_13
-Text GLabel 2450 4650 0    60   BiDi ~ 0
+Text GLabel 4150 4650 0    60   BiDi ~ 0
 FPGAIO_12
-Text GLabel 2450 4250 0    60   BiDi ~ 0
+Text GLabel 4150 4250 0    60   BiDi ~ 0
 FPGAIO_11
-Text GLabel 2450 4350 0    60   BiDi ~ 0
+Text GLabel 4150 4350 0    60   BiDi ~ 0
 FPGAIO_10
-Text GLabel 2450 4050 0    60   BiDi ~ 0
+Text GLabel 4150 4050 0    60   BiDi ~ 0
 FPGAIO_9
-Text GLabel 2450 4150 0    60   BiDi ~ 0
+Text GLabel 4150 4150 0    60   BiDi ~ 0
 FPGAIO_8
-Text GLabel 2450 3850 0    60   BiDi ~ 0
+Text GLabel 4150 3850 0    60   BiDi ~ 0
 FPGAIO_7
-Text GLabel 2450 3950 0    60   BiDi ~ 0
+Text GLabel 4150 3950 0    60   BiDi ~ 0
 FPGAIO_6
-Text GLabel 2450 3650 0    60   BiDi ~ 0
+Text GLabel 4150 3650 0    60   BiDi ~ 0
 FPGAIO_5
-Text GLabel 2450 3750 0    60   BiDi ~ 0
+Text GLabel 4150 3750 0    60   BiDi ~ 0
 FPGAIO_4
-Text GLabel 2450 3450 0    60   BiDi ~ 0
+Text GLabel 4150 3450 0    60   BiDi ~ 0
 FPGAIO_3
-Text GLabel 2450 3550 0    60   BiDi ~ 0
+Text GLabel 4150 3550 0    60   BiDi ~ 0
 FPGAIO_2
-Text GLabel 2450 4450 0    60   BiDi ~ 0
+Text GLabel 4150 4450 0    60   BiDi ~ 0
 FPGAIO_1
-Text GLabel 2450 4950 0    60   BiDi ~ 0
+Text GLabel 4150 4950 0    60   BiDi ~ 0
 FPGAIO_0
-Text Notes 4400 6700 0    50   ~ 0
+Text Notes 2400 6700 0    50   ~ 0
 FPGA top
-Text Notes 2750 6700 0    50   ~ 0
+Text Notes 4450 6700 0    50   ~ 0
 FPGA bottom
 Text Notes 8750 6700 0    50   ~ 0
 STM32 bottom
@@ -603,19 +603,19 @@ STM32 top
 $Comp
 L CONN_32 P6
 U 1 1 4CBF0647
-P 4600 5000
-F 0 "P6" V 4551 5000 60  0000 C CNN
-F 1 "CONN_32" V 4650 5000 60  0000 C CNN
-	1    4600 5000
+P 2600 5000
+F 0 "P6" V 2551 5000 60  0000 C CNN
+F 1 "CONN_32" V 2650 5000 60  0000 C CNN
+	1    2600 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_32 P5
 U 1 1 4CBF0646
-P 2900 5000
-F 0 "P5" V 2851 5000 60  0000 C CNN
-F 1 "CONN_32" V 2950 5000 60  0000 C CNN
-	1    2900 5000
+P 4600 5000
+F 0 "P5" V 4551 5000 60  0000 C CNN
+F 1 "CONN_32" V 4650 5000 60  0000 C CNN
+	1    4600 5000
 	1    0    0    -1  
 $EndComp
 Text Notes 3100 1450 0    60   ~ 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jul 2011 02:15:29 AM PDT
+EESchema Schematic File Version 2  date Tue 05 Jul 2011 04:29:30 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Kmarq B 3600 1250 "Warning Pin power_in not driven (Net 113)" F=1
+Kmarq B 10750 3350 "Warning Pin power_in not driven (Net 111)" F=1
+Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 8)" F=1
+Kmarq B 4750 1550 "Warning Pin power_in not driven (Net 7)" F=1
 Text GLabel 4950 6350 1    60   BiDi ~ 0
 30
 Connection ~ 4550 6350
@@ -421,10 +425,6 @@ Text GLabel 2250 4450 3    60   BiDi ~ 0
 DIN
 Text GLabel 10050 4650 3    60   BiDi ~ 0
 PROG
-Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 116)" F=1
-Kmarq B 10750 3350 "Warning Pin power_in not driven (Net 7)" F=1
-Kmarq B 4750 1550 "Warning Pin power_in not driven (Net 2)" F=1
-Kmarq B 3600 1250 "Warning Pin power_in not driven (Net 1)" F=1
 $Comp
 L +3.3V #PWR093
 U 1 1 4D8A3EEA
