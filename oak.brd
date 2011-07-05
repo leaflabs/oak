@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 27 May 2011 05:52:39 PM PDT
+PCBNEW-BOARD Version 1 date Sat 28 May 2011 04:35:17 PM PDT
 
 $GENERAL
 LayerCount 8
@@ -40,7 +40,7 @@ Layer[15] Component signal
 TrackWidth 80
 TrackWidthHistory 60
 TrackWidthHistory 80
-TrackClearence 60
+TrackClearence 80
 ZoneClearence 80
 DrawSegmWidth 150
 EdgeSegmWidth 150
