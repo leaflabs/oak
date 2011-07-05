@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jul 2011 04:29:30 AM PDT
+EESchema Schematic File Version 2  date Tue 05 Jul 2011 05:02:15 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -531,67 +531,67 @@ Text GLabel 2150 5950 0    60   BiDi ~ 0
 Text GLabel 2150 6550 0    60   BiDi ~ 0
 87
 Text GLabel 4150 6150 0    60   BiDi ~ 0
-FPGAIP_7
+91
 Text GLabel 4150 6250 0    60   BiDi ~ 0
-FPGAIP_6
+90
 Text GLabel 4150 5950 0    60   BiDi ~ 0
-FPGAIP_5
+93
 Text GLabel 4150 6050 0    60   BiDi ~ 0
-FPGAIP_4
+92
 Text GLabel 4150 6450 0    60   BiDi ~ 0
-FPGAIP_3
+88
 Text GLabel 4150 6350 0    60   BiDi ~ 0
-FPGAIP_2
+89
 Text GLabel 4150 5850 0    60   BiDi ~ 0
-FPGAIP_1
+94
 Text GLabel 4150 5750 0    60   BiDi ~ 0
-FPGAIP_0
+95
 Text GLabel 4150 5650 0    60   BiDi ~ 0
-FPGAIO_22
+96
 Text GLabel 4150 5450 0    60   BiDi ~ 0
-FPGAIO_21
+98
 Text GLabel 4150 5550 0    60   BiDi ~ 0
-FPGAIO_20
+97
 Text GLabel 4150 5250 0    60   BiDi ~ 0
-FPGAIO_19
+100
 Text GLabel 4150 5350 0    60   BiDi ~ 0
-FPGAIO_18
+99
 Text GLabel 4150 5050 0    60   BiDi ~ 0
-FPGAIO_17
+102
 Text GLabel 4150 5150 0    60   BiDi ~ 0
-FPGAIO_16
+101
 Text GLabel 4150 4750 0    60   BiDi ~ 0
-FPGAIO_15
+105
 Text GLabel 4150 4850 0    60   BiDi ~ 0
-FPGAIO_14
+104
 Text GLabel 4150 4550 0    60   BiDi ~ 0
-FPGAIO_13
+107
 Text GLabel 4150 4650 0    60   BiDi ~ 0
-FPGAIO_12
+106
 Text GLabel 4150 4250 0    60   BiDi ~ 0
-FPGAIO_11
+110
 Text GLabel 4150 4350 0    60   BiDi ~ 0
-FPGAIO_10
+109
 Text GLabel 4150 4050 0    60   BiDi ~ 0
-FPGAIO_9
+112
 Text GLabel 4150 4150 0    60   BiDi ~ 0
-FPGAIO_8
+111
 Text GLabel 4150 3850 0    60   BiDi ~ 0
-FPGAIO_7
+114
 Text GLabel 4150 3950 0    60   BiDi ~ 0
-FPGAIO_6
+113
 Text GLabel 4150 3650 0    60   BiDi ~ 0
-FPGAIO_5
+116
 Text GLabel 4150 3750 0    60   BiDi ~ 0
-FPGAIO_4
+115
 Text GLabel 4150 3450 0    60   BiDi ~ 0
-FPGAIO_3
+118
 Text GLabel 4150 3550 0    60   BiDi ~ 0
-FPGAIO_2
+117
 Text GLabel 4150 4450 0    60   BiDi ~ 0
-FPGAIO_1
+108
 Text GLabel 4150 4950 0    60   BiDi ~ 0
-FPGAIO_0
+103
 Text Notes 2400 6700 0    50   ~ 0
 FPGA top
 Text Notes 4450 6700 0    50   ~ 0

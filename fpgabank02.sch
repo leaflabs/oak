@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jul 2011 04:29:30 AM PDT
+EESchema Schematic File Version 2  date Tue 05 Jul 2011 05:02:15 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -249,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3100 5100 3100
 Text GLabel 5100 3100 2    60   BiDi ~ 0
-FPGAIO_2
+117
 $Comp
 L +3.3V #PWR01
 U 1 1 4D701EC8
@@ -380,67 +380,67 @@ Text GLabel 7350 5500 2    60   BiDi ~ 0
 Text GLabel 7350 5400 2    60   BiDi ~ 0
 87
 Text GLabel 3350 6000 2    60   BiDi ~ 0
-FPGAIP_7
+91
 Text GLabel 3350 5900 2    60   BiDi ~ 0
-FPGAIP_6
+90
 Text GLabel 3350 5800 2    60   BiDi ~ 0
-FPGAIP_5
+93
 Text GLabel 3350 5700 2    60   BiDi ~ 0
-FPGAIP_4
+92
 Text GLabel 3350 5600 2    60   BiDi ~ 0
-FPGAIP_3
+88
 Text GLabel 3350 5500 2    60   BiDi ~ 0
-FPGAIP_2
+89
 Text GLabel 3350 5400 2    60   BiDi ~ 0
-FPGAIP_1
+94
 Text GLabel 3350 5300 2    60   BiDi ~ 0
-FPGAIP_0
+95
 Text GLabel 3350 4800 2    60   BiDi ~ 0
-FPGAIO_22
+96
 Text GLabel 3350 4600 2    60   BiDi ~ 0
-FPGAIO_21
+98
 Text GLabel 3350 4500 2    60   BiDi ~ 0
-FPGAIO_20
+97
 Text GLabel 3350 4400 2    60   BiDi ~ 0
-FPGAIO_19
+100
 Text GLabel 3350 4300 2    60   BiDi ~ 0
-FPGAIO_18
+99
 Text GLabel 3350 4200 2    60   BiDi ~ 0
-FPGAIO_17
+102
 Text GLabel 3350 4100 2    60   BiDi ~ 0
-FPGAIO_16
+101
 Text GLabel 3350 4000 2    60   BiDi ~ 0
-FPGAIO_15
+105
 Text GLabel 3350 3900 2    60   BiDi ~ 0
-FPGAIO_14
+104
 Text GLabel 3350 3800 2    60   BiDi ~ 0
-FPGAIO_13
+107
 Text GLabel 3350 3700 2    60   BiDi ~ 0
-FPGAIO_12
+106
 Text GLabel 3350 3400 2    60   BiDi ~ 0
-FPGAIO_11
+110
 Text GLabel 3350 3300 2    60   BiDi ~ 0
-FPGAIO_10
+109
 Text GLabel 3350 3200 2    60   BiDi ~ 0
-FPGAIO_9
+112
 Text GLabel 3350 3100 2    60   BiDi ~ 0
-FPGAIO_8
+111
 Text GLabel 3350 3000 2    60   BiDi ~ 0
-FPGAIO_7
+114
 Text GLabel 3350 2900 2    60   BiDi ~ 0
-FPGAIO_6
+113
 Text GLabel 3350 2800 2    60   BiDi ~ 0
-FPGAIO_5
+116
 Text GLabel 3350 2700 2    60   BiDi ~ 0
-FPGAIO_4
+115
 Text GLabel 3350 2600 2    60   BiDi ~ 0
-FPGAIO_3
+118
 Text GLabel 3350 2500 2    60   BiDi ~ 0
-FPGAIO_2
+117
 Text GLabel 3350 2400 2    60   BiDi ~ 0
-FPGAIO_1
+108
 Text GLabel 3350 2300 2    60   BiDi ~ 0
-FPGAIO_0
+103
 $Comp
 L GND #PWR05
 U 1 1 4CBEEC11
