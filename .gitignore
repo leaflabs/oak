@@ -1,0 +1,8 @@
+*.bak
+*.pos
+*.000
+*.dcm
+schematicpdfs/*.ps
+*.rpt
+gerbers/
+gerbers.zip
