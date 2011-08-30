@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Aug 2011 12:45:03 PM PDT
+EESchema Schematic File Version 2  date Tue 30 Aug 2011 05:45:01 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 3100 4450 0    60   ~ 0
+TDO
+Text Label 3100 4550 0    60   ~ 0
+TCK
+Text Label 3100 4350 0    60   ~ 0
+TDI
+Text Label 3100 4250 0    60   ~ 0
+TMS
 Connection ~ 7100 1750
 Wire Wire Line
 	7100 1750 7500 1750
