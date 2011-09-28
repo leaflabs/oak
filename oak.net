@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 05 Jul 2011 05:02:21 AM PDT
+# EESchema Netlist Version 1.1 created  Wed 28 Sep 2011 09:11:00 AM PDT
 (
  ( /4CBEE458/4D701EC7 $noname  BUT4 BUT {Lib=BUT}
   (    1 +3.3V )
@@ -246,7 +246,7 @@
   (  P67 +1.2V )
   (  P13 +1.2V )
   ( P155 N-000222 )
-  ( P157 N-000011 )
+  ( P157 /FPGA_JTAG/TDO )
   ( P207 N-000220 )
   ( P158 N-000221 )
   (   P1 N-000114 )
@@ -417,10 +417,10 @@
   (    2 GND )
  )
  ( /4CAB1D66/4CD73823 $noname  P12 CONN_6 {Lib=CONN_6}
-  (    1 N-000231 )
-  (    2 N-000239 )
-  (    3 N-000011 )
-  (    4 N-000232 )
+  (    1 /FPGA_JTAG/TMS )
+  (    2 /FPGA_JTAG/TDI )
+  (    3 /FPGA_JTAG/TDO )
+  (    4 /FPGA_JTAG/TCK )
   (    5 GND )
   (    6 +3.3V )
  )
@@ -430,17 +430,17 @@
  )
  ( /4CAB1D66/4CBF15A2 $noname  U1 DG4053A {Lib=DG4053A}
   (    1 N-000112 )
-  (    2 N-000239 )
+  (    2 /FPGA_JTAG/TDI )
   (    3 N-000010 )
   (    4 N-000221 )
-  (    5 N-000232 )
+  (    5 /FPGA_JTAG/TCK )
   (    6 GND )
   (    7 GND )
   (    8 GND )
   (    9 N-000230 )
   (   10 N-000230 )
   (   11 N-000230 )
-  (   12 N-000231 )
+  (   12 /FPGA_JTAG/TMS )
   (   13 N-000009 )
   (   14 N-000222 )
   (   15 N-000240 )
@@ -470,15 +470,15 @@
  )
  ( /4CAB1D66/4CAB4472 $noname  R13 10k {Lib=R}
   (    1 +3.3V )
-  (    2 N-000231 )
+  (    2 /FPGA_JTAG/TMS )
  )
  ( /4CAB1D66/4CAB446D $noname  R12 10k {Lib=R}
   (    1 +3.3V )
-  (    2 N-000239 )
+  (    2 /FPGA_JTAG/TDI )
  )
  ( /4CAB1D66/4CAB4455 $noname  R11 10k {Lib=R}
   (    1 +3.3V )
-  (    2 N-000232 )
+  (    2 /FPGA_JTAG/TCK )
  )
  ( /4CAB1D66/4CAB3BFF $noname  P4 CONN_2 {Lib=CONN_2}
   (    1 GND )
@@ -945,7 +945,7 @@
   (   12 N-000019 )
   (   13 N-000102 )
   (   14 N-000112 )
-  (   15 N-000011 )
+  (   15 /FPGA_JTAG/TDO )
   (   16 N-000009 )
   (   17 N-000010 )
   (   18 N-000017 )
@@ -1006,27 +1006,27 @@
  )
  ( /4CAA12A2/4CAA8DDA $noname  Q2 MOSFET_P {Lib=MOSFET_P}
   (    D N-000142 )
-  (    G N-000137 )
-  (    S N-000138 )
+  (    G N-000123 )
+  (    S N-000122 )
  )
  ( /4CAA12A2/4CAA8DD9 $noname  R36 47m {Lib=R}
-  (    1 N-000138 )
+  (    1 N-000122 )
   (    2 N-000145 )
  )
  ( /4CAA12A2/4CAA8CC8 $noname  R30 390 {Lib=R}
   (    1 GND )
-  (    2 N-000136 )
+  (    2 N-000124 )
  )
  ( /4CAA12A2/4CAA8CA5 $noname  D9 Power {Lib=LED}
   (    1 +3.3V )
-  (    2 N-000136 )
+  (    2 N-000124 )
  )
  ( /4CAA12A2/4CAA8BDE $noname  C37 10pF {Lib=C}
   (    1 N-000143 )
   (    2 +3.3V )
  )
  ( /4CAA12A2/4CAA8AD7 $noname  R38 619k {Lib=R}
-  (    1 GND )
+  (    1 +3.3V )
   (    2 N-000143 )
  )
  ( /4CAA12A2/4CAA8AC4 $noname  L1 5uH {Lib=INDUCTOR}
@@ -1043,15 +1043,15 @@
  )
  ( /4CAA12A2/4CAA88C4 $noname  Q1 MOSFET_P {Lib=MOSFET_P}
   (    D N-000144 )
-  (    G N-000122 )
-  (    S N-000135 )
+  (    G N-000138 )
+  (    S N-000137 )
  )
  ( /4CAA12A2/4CAA8642 $noname  R35 47m {Lib=R}
-  (    1 N-000135 )
+  (    1 N-000137 )
   (    2 N-000145 )
  )
  ( /4CAA12A2/4CAA7843 $noname  C33 1.5nF {Lib=C}
-  (    1 N-000134 )
+  (    1 N-000125 )
   (    2 GND )
  )
  ( /4CAA12A2/4CAA7842 $noname  C3 0.1uF {Lib=C}
@@ -1059,7 +1059,7 @@
   (    2 GND )
  )
  ( /4CAA12A2/4CAA77C9 $noname  C32 1.5nF {Lib=C}
-  (    1 N-000133 )
+  (    1 N-000126 )
   (    2 GND )
  )
  ( /4CAA12A2/4CAA77B6 $noname  C68 1uF {Lib=C}
@@ -1067,7 +1067,7 @@
   (    2 GND )
  )
  ( /4CAA12A2/4CAA775E $noname  C31 1.5nF {Lib=C}
-  (    1 N-000123 )
+  (    1 N-000136 )
   (    2 GND )
  )
  ( /4CAA12A2/4CAA7751 $noname  C2 0.1uF {Lib=C}
@@ -1076,34 +1076,34 @@
  )
  ( /4CAA12A2/4CAA6FDF $noname  S1 SWITCH {Lib=SWITCH}
   (    1 N-000145 )
-  (    2 N-000124 )
+  (    2 N-000127 )
   (    3 GND )
  )
  ( /4CAA12A2/4CAA6DE2 $noname  IC1 TPS75003 {Lib=TPS75003}
   (  TAB GND )
   (    1 +2.5V )
   (    2 N-000141 )
-  (    3 N-000124 )
-  (    4 N-000124 )
-  (    5 N-000123 )
+  (    3 N-000127 )
+  (    4 N-000127 )
+  (    5 N-000136 )
   (    6 GND )
-  (    7 N-000122 )
+  (    7 N-000138 )
   (    8 N-000145 )
-  (    9 N-000135 )
+  (    9 N-000137 )
   (   10 N-000143 )
   (   11 +1.2V )
-  (   12 N-000138 )
+  (   12 N-000122 )
   (   13 N-000145 )
-  (   14 N-000137 )
+  (   14 N-000123 )
   (   15 GND )
-  (   16 N-000134 )
-  (   17 N-000124 )
+  (   16 N-000125 )
+  (   17 N-000127 )
   (   18 GND )
-  (   19 N-000133 )
+  (   19 N-000126 )
   (   20 N-000145 )
  )
  ( /4CAA12A2/4C77EDE0 $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000129 )
+  (    1 N-000134 )
   (    2 N-000145 )
  )
  ( /4CAA12A2/4C77EDD7 $noname  D2 DIODE {Lib=DIODE}
@@ -1114,32 +1114,32 @@
   (    1 N-000013 )
   (    2 N-000008 )
   (    3 N-000147 )
-  (    4 N-000139 )
+  (    4 N-000121 )
   (    5 +3.3V )
   (    6 GND )
  )
  ( /4CAA12A2/4B91871D $noname  P2 CONN_2 {Lib=CONN_2}
   (    1 GND )
-  (    2 N-000139 )
+  (    2 N-000121 )
  )
  ( /4CAA12A2/4B91871C $noname  P3 CONN_2 {Lib=CONN_2}
   (    1 GND )
-  (    2 N-000129 )
+  (    2 N-000134 )
  )
  ( /4CAA12A2/4B91871B $noname  D3 DIODE {Lib=DIODE}
-  (    1 N-000139 )
+  (    1 N-000121 )
   (    2 N-000147 )
  )
  ( /4CAA12A2/4B91871A $noname  D7 Green {Lib=LED}
   (    1 +3.3V )
-  (    2 N-000126 )
+  (    2 N-000133 )
  )
  ( /4CAA12A2/4B918719 $noname  D10 Red {Lib=LED}
   (    1 +3.3V )
-  (    2 N-000132 )
+  (    2 N-000128 )
  )
  ( /4CAA12A2/4B918717 $noname  C4 0.1uF {Lib=C}
-  (    1 N-000129 )
+  (    1 N-000134 )
   (    2 N-000130 )
  )
  ( /4CAA12A2/4B918716 $noname  C1 0.1uF {Lib=C}
@@ -1147,37 +1147,37 @@
   (    2 GND )
  )
  ( /4CAA12A2/4B918715 $noname  R18 1k {Lib=R}
-  (    1 N-000127 )
-  (    2 N-000132 )
+  (    1 N-000132 )
+  (    2 N-000128 )
  )
  ( /4CAA12A2/4B918714 $noname  R19 1k {Lib=R}
-  (    1 N-000131 )
-  (    2 N-000126 )
+  (    1 N-000129 )
+  (    2 N-000133 )
  )
  ( /4CAA12A2/4B918713 $noname  R20 1k {Lib=R}
   (    1 N-000130 )
   (    2 GND )
  )
  ( /4CAA12A2/4B918712 $noname  R6 10k {Lib=R}
-  (    1 N-000128 )
+  (    1 N-000131 )
   (    2 GND )
  )
  ( /4CAA12A2/4B918711 $noname  R5 10k {Lib=R}
   (    1 N-000147 )
-  (    2 N-000128 )
+  (    2 N-000131 )
  )
  ( /4CAA12A2/4B918710 $noname  BQ1 BQ24010DRC {Lib=BQ24010DRC}
   (  PAD GND )
   (    1 N-000147 )
   (    2 N-000147 )
-  (    3 N-000127 )
-  (    4 N-000131 )
+  (    3 N-000132 )
+  (    4 N-000129 )
   (    5 GND )
   (    6 N-000130 )
   (    7 ? )
-  (    8 N-000128 )
-  (    9 N-000129 )
-  (   10 N-000129 )
+  (    8 N-000131 )
+  (    9 N-000134 )
+  (   10 N-000134 )
  )
  ( /4CAA1009/4D6FF278 JP_SW  JP1 JP_SW {Lib=JP_SW}
   (    1 +3.3V )
@@ -1248,7 +1248,7 @@
   (   42 N-000094 )
   (   43 N-000027 )
   (   44 N-000112 )
-  (   45 N-000011 )
+  (   45 /FPGA_JTAG/TDO )
   (   46 N-000026 )
   (   47 N-000096 )
   (   48 GND )
@@ -2173,7 +2173,7 @@ Net 10 "" ""
  P7 17
  U1 3
  U1 3
-Net 11 "" ""
+Net 11 "/FPGA JTAG/TDO" "TDO"
  U3 45
  P7 15
  U4 P157
@@ -2525,7 +2525,6 @@ Net 111 "GND" "GND"
  C34 2
  D5 1
  R30 1
- R38 1
  R28 1
  D4 1
  C33 2
@@ -2712,6 +2711,7 @@ Net 113 "+3.3V" "+3.3V"
  C35 1
  D9 1
  C37 2
+ R38 1
  L1 2
  P11 5
  D7 1
@@ -2840,7 +2840,73 @@ Net 120 "" ""
  U3 24
  OSC1 3
  C43 1
-Net 121 "+1.2V" "+1.2V"
+Net 121 "" ""
+ P11 4
+ P2 2
+ D3 1
+Net 122 "" ""
+ Q2 S
+ R36 1
+ IC1 12
+Net 123 "" ""
+ Q2 G
+ IC1 14
+Net 124 "" ""
+ R30 2
+ D9 2
+Net 125 "" ""
+ C33 1
+ IC1 16
+Net 126 "" ""
+ C32 1
+ IC1 19
+Net 127 "" ""
+ S1 2
+ IC1 17
+ IC1 3
+ IC1 4
+Net 128 "" ""
+ D10 2
+ R18 2
+Net 129 "" ""
+ R19 1
+ BQ1 4
+Net 130 "" ""
+ C4 2
+ R20 1
+ BQ1 6
+Net 131 "" ""
+ R6 1
+ R5 2
+ BQ1 8
+Net 132 "" ""
+ R18 1
+ BQ1 3
+Net 133 "" ""
+ D7 2
+ R19 2
+Net 134 "" ""
+ D1 1
+ P3 2
+ C4 1
+ BQ1 9
+ BQ1 10
+Net 135 "+5V" "+5V"
+ D2 1
+ R40 1
+ R7 1
+ USB1 VBUS
+Net 136 "" ""
+ C31 1
+ IC1 5
+Net 137 "" ""
+ Q1 S
+ R35 1
+ IC1 9
+Net 138 "" ""
+ Q1 G
+ IC1 7
+Net 139 "+1.2V" "+1.2V"
  C36 1
  L2 2
  IC1 11
@@ -2858,72 +2924,6 @@ Net 121 "+1.2V" "+1.2V"
  C78 1
  C76 1
  C74 1
-Net 122 "" ""
- Q1 G
- IC1 7
-Net 123 "" ""
- C31 1
- IC1 5
-Net 124 "" ""
- S1 2
- IC1 17
- IC1 3
- IC1 4
-Net 125 "+5V" "+5V"
- D2 1
- R40 1
- R7 1
- USB1 VBUS
-Net 126 "" ""
- D7 2
- R19 2
-Net 127 "" ""
- R18 1
- BQ1 3
-Net 128 "" ""
- R6 1
- R5 2
- BQ1 8
-Net 129 "" ""
- D1 1
- P3 2
- C4 1
- BQ1 9
- BQ1 10
-Net 130 "" ""
- C4 2
- R20 1
- BQ1 6
-Net 131 "" ""
- R19 1
- BQ1 4
-Net 132 "" ""
- D10 2
- R18 2
-Net 133 "" ""
- C32 1
- IC1 19
-Net 134 "" ""
- C33 1
- IC1 16
-Net 135 "" ""
- Q1 S
- R35 1
- IC1 9
-Net 136 "" ""
- R30 2
- D9 2
-Net 137 "" ""
- Q2 G
- IC1 14
-Net 138 "" ""
- Q2 S
- R36 1
- IC1 12
-Net 139 "" ""
- P11 4
- P2 2
- D3 1
 Net 140 "+2.5V" "+2.5V"
  C39 1
  R22 2
@@ -3258,11 +3258,11 @@ Net 230 "" ""
  U1 11
  U1 11
  P4 2
-Net 231 "" ""
+Net 231 "/FPGA JTAG/TMS" "TMS"
  P12 1
  U1 12
  R13 2
-Net 232 "" ""
+Net 232 "/FPGA JTAG/TCK" "TCK"
  P12 4
  U1 5
  U1 5
@@ -3288,7 +3288,7 @@ Net 237 "" ""
 Net 238 "" ""
  R24 1
  P9 4
-Net 239 "" ""
+Net 239 "/FPGA JTAG/TDI" "TDI"
  P12 2
  U1 2
  R12 2
