@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 30 Aug 2011 05:45:01 AM PDT
+EESchema Schematic File Version 2  date Wed 28 Sep 2011 09:16:53 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 6 9
 Title ""
-Date "3 mar 2011"
+Date "28 sep 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,6 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4750 3450 4100 3450
+Wire Wire Line
+	5250 3250 5350 3250
+Wire Wire Line
+	5250 3150 5350 3150
 Wire Wire Line
 	5950 1050 9800 1050
 Connection ~ 9450 1450
@@ -30,12 +36,6 @@ Wire Wire Line
 	4350 5350 4250 5350
 Wire Wire Line
 	4350 5450 4350 5250
-Wire Wire Line
-	4200 3250 4100 3250
-Wire Wire Line
-	4100 3150 4200 3150
-Wire Wire Line
-	4100 3450 4200 3450
 Wire Wire Line
 	10500 2150 4100 2150
 Connection ~ 5700 3750
@@ -338,6 +338,39 @@ Wire Wire Line
 	4350 4650 4350 4750
 Wire Wire Line
 	9800 1450 5950 1450
+Wire Wire Line
+	4750 3150 4100 3150
+Wire Wire Line
+	4750 3250 4100 3250
+Wire Wire Line
+	5250 3450 5350 3450
+$Comp
+L R R45
+U 1 1 4E834829
+P 5000 3450
+F 0 "R45" V 5080 3450 50  0000 C CNN
+F 1 "100" V 5000 3450 50  0000 C CNN
+	1    5000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R44
+U 1 1 4E834806
+P 5000 3250
+F 0 "R44" V 5080 3250 50  0000 C CNN
+F 1 "100" V 5000 3250 50  0000 C CNN
+	1    5000 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R43
+U 1 1 4E8347BC
+P 5000 3150
+F 0 "R43" V 4900 3150 50  0000 C CNN
+F 1 "100" V 5000 3150 50  0000 C CNN
+	1    5000 3150
+	0    1    1    0   
+$EndComp
 $Comp
 L C C18
 U 1 1 4D8A4330
@@ -366,10 +399,10 @@ F 1 "0.1uF" H 9150 1150 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR032
+L +5V #PWR64
 U 1 1 4CD90A4D
 P 4350 4650
-F 0 "#PWR032" H 4350 4740 20  0001 C CNN
+F 0 "#PWR64" H 4350 4740 20  0001 C CNN
 F 1 "+5V" H 4350 4740 30  0000 C CNN
 	1    4350 4650
 	1    0    0    -1  
@@ -393,37 +426,37 @@ F 1 "XOSC_SOCKET" H 6800 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR033
+L +3.3V #PWR63
 U 1 1 4CD862DE
 P 3250 5050
-F 0 "#PWR033" H 3250 5010 30  0001 C CNN
+F 0 "#PWR63" H 3250 5010 30  0001 C CNN
 F 1 "+3.3V" H 3250 5160 30  0000 C CNN
 	1    3250 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR034
+L +3.3V #PWR66
 U 1 1 4CD86158
 P 6050 5300
-F 0 "#PWR034" H 6050 5260 30  0001 C CNN
+F 0 "#PWR66" H 6050 5260 30  0001 C CNN
 F 1 "+3.3V" H 6050 5410 30  0000 C CNN
 	1    6050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR035
+L +3.3V #PWR58
 U 1 1 4CD8614E
 P 2200 5050
-F 0 "#PWR035" H 2200 5010 30  0001 C CNN
+F 0 "#PWR58" H 2200 5010 30  0001 C CNN
 F 1 "+3.3V" H 2200 5160 30  0000 C CNN
 	1    2200 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR036
+L +3.3V #PWR68
 U 1 1 4CD860B8
 P 7700 950
-F 0 "#PWR036" H 7700 910 30  0001 C CNN
+F 0 "#PWR68" H 7700 910 30  0001 C CNN
 F 1 "+3.3V" H 7700 1060 30  0000 C CNN
 	1    7700 950 
 	1    0    0    -1  
@@ -431,10 +464,10 @@ $EndComp
 Text GLabel 4250 5350 0    60   BiDi ~ 0
 USB_P
 $Comp
-L GND #PWR037
+L GND #PWR65
 U 1 1 4CD81A1F
 P 4350 6050
-F 0 "#PWR037" H 4350 6050 30  0001 C CNN
+F 0 "#PWR65" H 4350 6050 30  0001 C CNN
 F 1 "GND" H 4350 5980 30  0001 C CNN
 	1    4350 6050
 	1    0    0    -1  
@@ -457,17 +490,17 @@ F 1 "1.5k" V 4350 5000 50  0000 C CNN
 	1    4350 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 3250 2    60   BiDi ~ 0
+Text GLabel 5350 3250 2    60   BiDi ~ 0
 PROM_TDO
-Text GLabel 4200 3450 2    60   BiDi ~ 0
+Text GLabel 5350 3450 2    60   BiDi ~ 0
 FPGA_TMS
-Text GLabel 4200 3150 2    60   BiDi ~ 0
+Text GLabel 5350 3150 2    60   BiDi ~ 0
 FPGA_TCK
 $Comp
-L GND #PWR038
+L GND #PWR67
 U 1 1 4CBF0933
 P 6050 6300
-F 0 "#PWR038" H 6050 6300 30  0001 C CNN
+F 0 "#PWR67" H 6050 6300 30  0001 C CNN
 F 1 "GND" H 6050 6230 30  0001 C CNN
 	1    6050 6300
 	1    0    0    -1  
@@ -593,10 +626,10 @@ F 2 "xilinx_devices-PQ208" H 3900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR57
 U 1 1 4CBE2EB8
 P 2150 3550
-F 0 "#PWR039" H 2150 3550 30  0001 C CNN
+F 0 "#PWR57" H 2150 3550 30  0001 C CNN
 F 1 "GND" H 2150 3480 30  0001 C CNN
 	1    2150 3550
 	1    0    0    -1  
@@ -648,10 +681,10 @@ F 1 "10uF" H 4950 2250 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.2V #PWR040
+L +1.2V #PWR72
 U 1 1 4CAA99A4
 P 7700 3650
-F 0 "#PWR040" H 7700 3790 20  0001 C CNN
+F 0 "#PWR72" H 7700 3790 20  0001 C CNN
 F 1 "+1.2V" H 7700 3760 30  0000 C CNN
 	1    7700 3650
 	1    0    0    -1  
@@ -659,10 +692,10 @@ $EndComp
 Text Notes 6400 3650 0    60   ~ 0
 VCCINT bypass caps
 $Comp
-L GND #PWR041
+L GND #PWR73
 U 1 1 4CAA99A2
 P 7700 4250
-F 0 "#PWR041" H 7700 4250 30  0001 C CNN
+F 0 "#PWR73" H 7700 4250 30  0001 C CNN
 F 1 "GND" H 7700 4180 30  0001 C CNN
 	1    7700 4250
 	1    0    0    -1  
@@ -742,19 +775,19 @@ $EndComp
 Text Notes 5000 2050 0    60   ~ 0
 VCCAUX bypass caps
 $Comp
-L +2.5V #PWR042
+L +2.5V #PWR70
 U 1 1 4CAA9979
 P 7700 2050
-F 0 "#PWR042" H 7700 2000 20  0001 C CNN
+F 0 "#PWR70" H 7700 2000 20  0001 C CNN
 F 1 "+2.5V" H 7700 2150 30  0000 C CNN
 	1    7700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR71
 U 1 1 4CAA995B
 P 7700 2650
-F 0 "#PWR043" H 7700 2650 30  0001 C CNN
+F 0 "#PWR71" H 7700 2650 30  0001 C CNN
 F 1 "GND" H 7700 2580 30  0001 C CNN
 	1    7700 2650
 	1    0    0    -1  
@@ -834,10 +867,10 @@ $EndComp
 Text Notes 5950 950  0    60   ~ 0
 STM32 bypass caps
 $Comp
-L GND #PWR044
+L GND #PWR69
 U 1 1 4CAA930E
 P 7700 1550
-F 0 "#PWR044" H 7700 1550 30  0001 C CNN
+F 0 "#PWR69" H 7700 1550 30  0001 C CNN
 F 1 "GND" H 7700 1480 30  0001 C CNN
 	1    7700 1550
 	1    0    0    -1  
@@ -930,10 +963,10 @@ USB_DP
 Text GLabel 4200 6300 2    60   BiDi ~ 0
 USB_DM
 $Comp
-L +5V #PWR045
+L +5V #PWR60
 U 1 1 4CAA92E5
 P 2850 4600
-F 0 "#PWR045" H 2850 4690 20  0001 C CNN
+F 0 "#PWR60" H 2850 4690 20  0001 C CNN
 F 1 "+5V" H 2850 4690 30  0000 C CNN
 	1    2850 4600
 	1    0    0    -1  
@@ -1002,28 +1035,28 @@ F 1 "NPN" H 2352 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR61
 U 1 1 4CAA92DB
 P 2850 6050
-F 0 "#PWR046" H 2850 6050 30  0001 C CNN
+F 0 "#PWR61" H 2850 6050 30  0001 C CNN
 F 1 "GND" H 2850 5980 30  0001 C CNN
 	1    2850 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L GND #PWR59
 U 1 1 4CAA92DA
 P 2550 6050
-F 0 "#PWR047" H 2550 6050 30  0001 C CNN
+F 0 "#PWR59" H 2550 6050 30  0001 C CNN
 F 1 "GND" H 2550 5980 30  0001 C CNN
 	1    2550 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR62
 U 1 1 4CAA92D9
 P 3100 7100
-F 0 "#PWR048" H 3100 7100 30  0001 C CNN
+F 0 "#PWR62" H 3100 7100 30  0001 C CNN
 F 1 "GND" H 3100 7030 30  0001 C CNN
 	1    3100 7100
 	1    0    0    -1  
@@ -1051,19 +1084,19 @@ USBDP
 Text Label 2250 6300 2    60   ~ 0
 USBDM
 $Comp
-L +5V #PWR049
+L +5V #PWR56
 U 1 1 4CAA92D6
 P 1900 5950
-F 0 "#PWR049" H 1900 6040 20  0001 C CNN
+F 0 "#PWR56" H 1900 6040 20  0001 C CNN
 F 1 "+5V" H 1900 6040 30  0000 C CNN
 	1    1900 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L GND #PWR55
 U 1 1 4CAA92D5
 P 1800 6550
-F 0 "#PWR050" H 1800 6550 30  0001 C CNN
+F 0 "#PWR55" H 1800 6550 30  0001 C CNN
 F 1 "GND" H 1800 6480 30  0001 C CNN
 	1    1800 6550
 	1    0    0    -1  

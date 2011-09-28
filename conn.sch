@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 30 Aug 2011 05:45:01 AM PDT
+EESchema Schematic File Version 2  date Wed 28 Sep 2011 09:16:53 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 9
 Title ""
-Date "3 mar 2011"
+Date "28 sep 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -379,19 +379,19 @@ F 1 "CONN_5X2" V 3200 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR051
+L +3.3V #PWR54
 U 1 1 4CE98919
 P 10050 2050
-F 0 "#PWR051" H 10050 2010 30  0001 C CNN
+F 0 "#PWR54" H 10050 2010 30  0001 C CNN
 F 1 "+3.3V" H 10050 2160 30  0000 C CNN
 	1    10050 2050
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR052
+L GND #PWR53
 U 1 1 4CE98911
 P 9050 2150
-F 0 "#PWR052" H 9050 2150 30  0001 C CNN
+F 0 "#PWR53" H 9050 2150 30  0001 C CNN
 F 1 "GND" H 9050 2080 30  0001 C CNN
 	1    9050 2150
 	1    0    0    -1  
@@ -406,19 +406,19 @@ F 1 "CONN_10X2" V 9550 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR053
+L +3.3V #PWR43
 U 1 1 4CD861B8
 P 2700 1550
-F 0 "#PWR053" H 2700 1510 30  0001 C CNN
+F 0 "#PWR43" H 2700 1510 30  0001 C CNN
 F 1 "+3.3V" H 2700 1660 30  0000 C CNN
 	1    2700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR054
+L +3.3V #PWR49
 U 1 1 4CD861AD
 P 7050 1600
-F 0 "#PWR054" H 7050 1560 30  0001 C CNN
+F 0 "#PWR49" H 7050 1560 30  0001 C CNN
 F 1 "+3.3V" H 7050 1710 30  0000 C CNN
 	1    7050 1600
 	1    0    0    -1  
@@ -440,10 +440,10 @@ FPGAIP_17
 Text GLabel 9050 1150 0    60   BiDi ~ 0
 FPGAIP_16
 $Comp
-L GND #PWR055
+L GND #PWR45
 U 1 1 4CBF07F3
 P 4150 6650
-F 0 "#PWR055" H 4150 6650 30  0001 C CNN
+F 0 "#PWR45" H 4150 6650 30  0001 C CNN
 F 1 "GND" H 4150 6580 30  0001 C CNN
 	1    4150 6650
 	1    0    0    -1  
@@ -621,10 +621,10 @@ $EndComp
 Text Notes 3100 1450 0    60   ~ 0
 STM32 JTAG
 $Comp
-L GND #PWR056
+L GND #PWR50
 U 1 1 4C44B3FC
 P 7050 2000
-F 0 "#PWR056" H 7050 2000 30  0001 C CNN
+F 0 "#PWR50" H 7050 2000 30  0001 C CNN
 F 1 "GND" H 7050 1930 30  0001 C CNN
 	1    7050 2000
 	1    0    0    -1  
@@ -669,46 +669,46 @@ F 1 "CONN_32" V 7100 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L GND #PWR52
 U 1 1 4B915C59
 P 8500 6550
-F 0 "#PWR057" H 8500 6550 30  0001 C CNN
+F 0 "#PWR52" H 8500 6550 30  0001 C CNN
 F 1 "GND" H 8500 6480 30  0001 C CNN
 	1    8500 6550
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR058
+L GND #PWR48
 U 1 1 4B915C57
 P 6600 6650
-F 0 "#PWR058" H 6600 6650 30  0001 C CNN
+F 0 "#PWR48" H 6600 6650 30  0001 C CNN
 F 1 "GND" H 6600 6580 30  0001 C CNN
 	1    6600 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L GND #PWR51
 U 1 1 4B915C54
 P 8500 3450
-F 0 "#PWR059" H 8500 3450 30  0001 C CNN
+F 0 "#PWR51" H 8500 3450 30  0001 C CNN
 F 1 "GND" H 8500 3380 30  0001 C CNN
 	1    8500 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR060
+L GND #PWR47
 U 1 1 4B915C51
 P 6600 5950
-F 0 "#PWR060" H 6600 5950 30  0001 C CNN
+F 0 "#PWR47" H 6600 5950 30  0001 C CNN
 F 1 "GND" H 6600 5880 30  0001 C CNN
 	1    6600 5950
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR061
+L GND #PWR46
 U 1 1 4B915C4B
 P 6600 3350
-F 0 "#PWR061" H 6600 3350 30  0001 C CNN
+F 0 "#PWR46" H 6600 3350 30  0001 C CNN
 F 1 "GND" H 6600 3280 30  0001 C CNN
 	1    6600 3350
 	1    0    0    1   
@@ -834,10 +834,10 @@ JTAG-TMS
 Text GLabel 3700 2050 2    60   BiDi ~ 0
 JTAG-TRST
 $Comp
-L GND #PWR062
+L GND #PWR44
 U 1 1 4B9142AB
 P 2700 2150
-F 0 "#PWR062" H 2700 2150 30  0001 C CNN
+F 0 "#PWR44" H 2700 2150 30  0001 C CNN
 F 1 "GND" H 2700 2080 30  0001 C CNN
 	1    2700 2150
 	1    0    0    -1  

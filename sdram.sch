@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 30 Aug 2011 05:45:01 AM PDT
+EESchema Schematic File Version 2  date Wed 28 Sep 2011 09:16:53 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 9
 Title ""
-Date "3 mar 2011"
+Date "28 sep 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR09
+L +3.3V #PWR95
 U 1 1 4CD85683
 P 3300 4250
-F 0 "#PWR09" H 3300 4210 30  0001 C CNN
+F 0 "#PWR95" H 3300 4210 30  0001 C CNN
 F 1 "+3.3V" H 3300 4360 30  0000 C CNN
 	1    3300 4250
 	1    0    0    -1  
@@ -250,10 +250,10 @@ SDRAM_D1
 Text GLabel 7100 2500 2    60   BiDi ~ 0
 SDRAM_D0
 $Comp
-L GND #PWR010
+L GND #PWR96
 U 1 1 4CBEE13F
 P 3300 4850
-F 0 "#PWR010" H 3300 4850 30  0001 C CNN
+F 0 "#PWR96" H 3300 4850 30  0001 C CNN
 F 1 "GND" H 3300 4780 30  0001 C CNN
 	1    3300 4850
 	1    0    0    -1  
