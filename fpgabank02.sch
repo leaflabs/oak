@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 28 Sep 2011 09:16:53 AM PDT
+EESchema Schematic File Version 2  date Thu 29 Sep 2011 01:02:13 PM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -251,10 +251,10 @@ Wire Wire Line
 Text GLabel 5100 3100 2    60   BiDi ~ 0
 117
 $Comp
-L +3.3V #PWR100
+L +3.3V #PWR01
 U 1 1 4D701EC8
 P 4500 3350
-F 0 "#PWR100" H 4500 3310 30  0001 C CNN
+F 0 "#PWR01" H 4500 3310 30  0001 C CNN
 F 1 "+3.3V" H 4500 3460 30  0000 C CNN
 	1    4500 3350
 	1    0    0    -1  
@@ -269,10 +269,10 @@ F 1 "BUT" H 4900 3550 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR101
+L GND #PWR02
 U 1 1 4D701EC6
 P 5650 4100
-F 0 "#PWR101" H 5650 4100 30  0001 C CNN
+F 0 "#PWR02" H 5650 4100 30  0001 C CNN
 F 1 "GND" H 5650 4030 30  0001 C CNN
 	1    5650 4100
 	1    0    0    -1  
@@ -298,19 +298,19 @@ $EndComp
 Text GLabel 5050 4700 0    60   BiDi ~ 0
 64
 $Comp
-L +3.3V #PWR102
+L +3.3V #PWR03
 U 1 1 4CD855EF
 P 8100 1900
-F 0 "#PWR102" H 8100 1860 30  0001 C CNN
+F 0 "#PWR03" H 8100 1860 30  0001 C CNN
 F 1 "+3.3V" H 8100 2010 30  0000 C CNN
 	1    8100 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR98
+L +3.3V #PWR04
 U 1 1 4CD85555
 P 4100 1900
-F 0 "#PWR98" H 4100 1860 30  0001 C CNN
+F 0 "#PWR04" H 4100 1860 30  0001 C CNN
 F 1 "+3.3V" H 4100 2010 30  0000 C CNN
 	1    4100 1900
 	1    0    0    -1  
@@ -442,10 +442,10 @@ Text GLabel 3350 2400 2    60   BiDi ~ 0
 Text GLabel 3350 2300 2    60   BiDi ~ 0
 103
 $Comp
-L GND #PWR97
+L GND #PWR05
 U 1 1 4CBEEC11
 P 3350 5100
-F 0 "#PWR97" H 3350 5100 30  0001 C CNN
+F 0 "#PWR05" H 3350 5100 30  0001 C CNN
 F 1 "GND" H 3350 5030 30  0001 C CNN
 	1    3350 5100
 	0    -1   -1   0   
@@ -463,10 +463,10 @@ SDRAM_A1
 Text GLabel 3350 4700 2    60   BiDi ~ 0
 SDRAM_A0
 $Comp
-L GND #PWR99
+L GND #PWR06
 U 1 1 4CBEE5DC
 P 4100 2500
-F 0 "#PWR99" H 4100 2500 30  0001 C CNN
+F 0 "#PWR06" H 4100 2500 30  0001 C CNN
 F 1 "GND" H 4100 2430 30  0001 C CNN
 	1    4100 2500
 	1    0    0    -1  
@@ -526,10 +526,10 @@ F 1 "47nF" H 4150 2100 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR103
+L GND #PWR07
 U 1 1 4CBEE5CF
 P 8100 2500
-F 0 "#PWR103" H 8100 2500 30  0001 C CNN
+F 0 "#PWR07" H 8100 2500 30  0001 C CNN
 F 1 "GND" H 8100 2430 30  0001 C CNN
 	1    8100 2500
 	1    0    0    -1  
@@ -601,10 +601,10 @@ M2
 Text GLabel 9250 5200 2    60   BiDi ~ 0
 SCK
 $Comp
-L GND #PWR104
+L GND #PWR08
 U 1 1 4CBEE4FE
 P 8550 5800
-F 0 "#PWR104" H 8550 5800 30  0001 C CNN
+F 0 "#PWR08" H 8550 5800 30  0001 C CNN
 F 1 "GND" H 8550 5730 30  0001 C CNN
 	1    8550 5800
 	1    0    0    -1  

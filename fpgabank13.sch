@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 28 Sep 2011 09:16:53 AM PDT
+EESchema Schematic File Version 2  date Thu 29 Sep 2011 01:02:13 PM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
 EELAYER 24  0
 EELAYER END
@@ -14,28 +14,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR92
+L +3.3V #PWR011
 U 1 1 4CD856EA
 P 7800 1850
-F 0 "#PWR92" H 7800 1810 30  0001 C CNN
+F 0 "#PWR011" H 7800 1810 30  0001 C CNN
 F 1 "+3.3V" H 7800 1960 30  0000 C CNN
 	1    7800 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR94
+L +3.3V #PWR012
 U 1 1 4CD856E7
 P 9850 1950
-F 0 "#PWR94" H 9850 1910 30  0001 C CNN
+F 0 "#PWR012" H 9850 1910 30  0001 C CNN
 F 1 "+3.3V" H 9850 2060 30  0000 C CNN
 	1    9850 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR90
+L +3.3V #PWR013
 U 1 1 4CD856D4
 P 3900 1850
-F 0 "#PWR90" H 3900 1810 30  0001 C CNN
+F 0 "#PWR013" H 3900 1810 30  0001 C CNN
 F 1 "+3.3V" H 3900 1960 30  0000 C CNN
 	1    3900 1850
 	1    0    0    -1  
@@ -348,10 +348,10 @@ Wire Wire Line
 	3150 2150 3150 1950
 Connection ~ 3150 1950
 $Comp
-L GND #PWR91
+L GND #PWR014
 U 1 1 4CBEE65C
 P 3900 2450
-F 0 "#PWR91" H 3900 2450 30  0001 C CNN
+F 0 "#PWR014" H 3900 2450 30  0001 C CNN
 F 1 "GND" H 3900 2380 30  0001 C CNN
 	1    3900 2450
 	1    0    0    -1  
@@ -504,10 +504,10 @@ FSMC_A1
 Text GLabel 7050 6050 2    60   Input ~ 0
 FSMC_A0
 $Comp
-L GND #PWR93
+L GND #PWR015
 U 1 1 4CBE3B69
 P 7800 2450
-F 0 "#PWR93" H 7800 2450 30  0001 C CNN
+F 0 "#PWR015" H 7800 2450 30  0001 C CNN
 F 1 "GND" H 7800 2380 30  0001 C CNN
 	1    7800 2450
 	1    0    0    -1  
