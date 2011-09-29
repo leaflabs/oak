@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Wed 23 Mar 2011 10:57:06 AM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 29 Sep 2011 10:20:14 AM PDT
 
 BeginCmp
 TimeStamp = /4CAA12A2/4B918710;
@@ -141,21 +141,21 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA922C/4CAA930C;
+TimeStamp = /4CAA922C/4D8A432E;
 Reference = C16;
 ValeurCmp = 0.1uF;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA922C/4CAA930D;
+TimeStamp = /4CAA922C/4D8A432F;
 Reference = C17;
 ValeurCmp = 0.1uF;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA922C/4CAA9310;
+TimeStamp = /4CAA922C/4D8A4330;
 Reference = C18;
 ValeurCmp = 0.1uF;
 IdModule  = SM0402;
@@ -694,20 +694,6 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA12A2/4B98D3FE;
-Reference = C95;
-ValeurCmp = 47uF;
-IdModule  = UD-4x5;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B98D407;
-Reference = C96;
-ValeurCmp = 47uF;
-IdModule  = UD-4x5;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CAA12A2/4C77EDE0;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -817,13 +803,6 @@ TimeStamp = /4CAA12A2/4CAA8DDE;
 Reference = L2;
 ValeurCmp = 15uH;
 IdModule  = SMCDRH;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B91872B;
-Reference = MCP1;
-ValeurCmp = MCP1700T;
-IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -1243,6 +1222,27 @@ BeginCmp
 TimeStamp = /4CBEE458/4D701EC4;
 Reference = R42;
 ValeurCmp = 1k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4E8347BC;
+Reference = R43;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4E834806;
+Reference = R44;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAA922C/4E834829;
+Reference = R45;
+ValeurCmp = 100;
 IdModule  = SM0402;
 EndCmp
 
