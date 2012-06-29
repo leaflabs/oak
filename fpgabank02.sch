@@ -1,11 +1,40 @@
-EESchema Schematic File Version 2  date Thu 29 Sep 2011 01:02:13 PM PDT
-LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./oak.cache
+EESchema Schematic File Version 2  date Fri 29 Jun 2012 10:12:58 AM PDT
+LIBS:power
+LIBS:leaf
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:oak-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 2 9
 Title ""
-Date "28 sep 2011"
+Date "29 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""

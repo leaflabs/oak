@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 29 Sep 2011 10:20:14 AM PDT
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918710;
-Reference = BQ1;
-ValeurCmp = BQ24010DRC;
-IdModule  = BQ;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Fri 29 Jun 2012 10:15:05 AM PDT
 
 BeginCmp
 TimeStamp = /4CAA1009/4BB523CB;
@@ -52,13 +45,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAA12A2/4CAA7842;
 Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918717;
-Reference = C4;
 ValeurCmp = 0.1uF;
 IdModule  = SM0402;
 EndCmp
@@ -694,27 +680,6 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA12A2/4C77EDE0;
-Reference = D1;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4C77EDD7;
-Reference = D2;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B91871B;
-Reference = D3;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CAA12A2/4CAA89E5;
 Reference = D4;
 ValeurCmp = DIODE;
@@ -736,13 +701,6 @@ IdModule  = LEDSM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CAA12A2/4B91871A;
-Reference = D7;
-ValeurCmp = Green;
-IdModule  = LEDSM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CAA1009/4BBE43DA;
 Reference = D8;
 ValeurCmp = LED;
@@ -754,20 +712,6 @@ TimeStamp = /4CAA12A2/4CAA8CA5;
 Reference = D9;
 ValeurCmp = Power;
 IdModule  = LEDSM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918719;
-Reference = D10;
-ValeurCmp = Red;
-IdModule  = LEDSM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4D7018E4;
-Reference = D11;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
 EndCmp
 
 BeginCmp
@@ -827,17 +771,17 @@ IdModule  = CRYSTAL-SMD-7x5;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CAA12A2/4E84CBB8;
+Reference = P1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CAA12A2/4B91871D;
 Reference = P2;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B91871C;
-Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = S2B-PH;
 EndCmp
 
 BeginCmp
@@ -911,6 +855,13 @@ IdModule  = PIN_ARRAY_10x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CAA12A2/4FEDE1FD;
+Reference = PWR_JACK1;
+ValeurCmp = PWR_JACK;
+IdModule  = POWER_JACK_PTH;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CAA12A2/4CAA88C4;
 Reference = Q1;
 ValeurCmp = MOSFET_P;
@@ -962,20 +913,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAA1009/4B83757D;
 Reference = R4;
-ValeurCmp = 10k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918711;
-Reference = R5;
-ValeurCmp = 10k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918712;
-Reference = R6;
 ValeurCmp = 10k;
 IdModule  = SM0402;
 EndCmp
@@ -1046,27 +983,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAA1009/4BBE4342;
 Reference = R17;
-ValeurCmp = 1k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918715;
-Reference = R18;
-ValeurCmp = 1k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918714;
-Reference = R19;
-ValeurCmp = 1k;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CAA12A2/4B918713;
-Reference = R20;
 ValeurCmp = 1k;
 IdModule  = SM0402;
 EndCmp
